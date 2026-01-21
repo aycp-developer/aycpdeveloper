@@ -7,7 +7,7 @@ const Whatsapp = () => {
     return (
         <a
             className='whatsapp'
-            href='https://wa.me/5533845872?text=hola'
+            href='https://wa.me/5533845872?text=¡Hola, Alexander Yosimar!'
             target='_blank'
             rel="noreferrer"
         >
