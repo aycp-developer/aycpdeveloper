@@ -1,0 +1,200 @@
+@use "../../sass/styles";
+
+@mixin recommended-config {
+    margin-right: 4.5rem;
+    height: 84%;
+}
+
+@mixin h2-config {
+    color: white;
+    font-size: 0.76rem;
+    font-weight: bold;
+    margin: 1rem 0 0.6rem 0;
+}
+
+@mixin ul-config {
+    color: chocolate;
+    margin: 0;
+    padding: 0;
+    height: 85%;
+}
+
+@mixin li-config {
+    list-style: none;
+    opacity: 0.7;
+    margin: 0 0 0.2rem 0;
+}
+
+@mixin a-config {
+    text-decoration: none;
+    color: white;
+    font-size: 0.76rem;
+}
+
+.footer {
+    background-color: black;
+    @include styles.center;
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;
+
+    .div3 {
+        position: relative;
+        z-index: 2;
+        height: 30%;
+        width: 95%;
+
+        .content {
+            @include styles.glassmorphism-card-effect;
+            letter-spacing: 0.4px;
+            border-radius: 1.4rem;
+            height: 14rem;
+            width: 100%;
+
+            .recommended-resources-container {
+                @include styles.center;
+                justify-content: end;
+                height: 80%;
+                width: 100%;
+
+                .aycpdeveloper-logo {
+                    position: absolute;
+                    top: 14%;
+                    left: 4.5%;
+                    height: 2rem;
+                    width: 5rem;
+                }
+
+                .recommended-pages {
+                    @include recommended-config;
+
+                    h2 {
+                        @include h2-config;
+                    }
+
+                    ul {
+                        @include ul-config;
+
+                        li {
+                            @include li-config;
+
+                            a {
+                                @include a-config;
+                            }
+                        }
+                    }
+                }
+
+                .recommended-channels {
+                    @include recommended-config;
+
+                    h2 {
+                        @include h2-config;
+                    }
+
+                    ul {
+                        @include ul-config;
+
+                        li {
+                            @include li-config;
+
+                            a {
+                                @include a-config;
+                            }
+                        }
+                    }
+                }
+
+                .recommended-bootcamps {
+                    @include recommended-config;
+
+                    h2 {
+                        @include h2-config;
+                    }
+
+                    ul {
+                        @include ul-config;
+
+                        li {
+                            @include li-config;
+
+                            a {
+                                @include a-config;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .copyright {
+                color: white;
+                font-size: 0.76rem;
+                margin: 0 0 0 2.7rem;
+            }
+        }
+    }
+
+    .div4 {
+        position: relative;
+        z-index: 1;
+        height: 70%;
+        width: 100%;
+
+        .background-footer {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 429px) {
+    .footer {
+        height: 10.5rem;
+
+        .div3 {
+            width: 94%;
+
+            .content {
+                display: flex;
+                height: 9.7rem;
+
+                .recommended-resources-container {
+                    justify-content: center;
+                    border-top-left-radius: 1.4rem;
+                    border-bottom-left-radius: 1.4rem;
+                    height: 100%;
+                    width: 28%;
+
+                    .aycpdeveloper-logo {
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    .recommended-pages {
+                        display: none;
+                    }
+
+                    .recommended-channels {
+                        display: none;
+                    }
+
+                    .recommended-bootcamps {
+                        display: none;
+                    }
+                }
+
+                .copyright {
+                    @include styles.center;
+                    text-align: center;
+                    border-top-right-radius: 1.4rem;
+                    border-bottom-right-radius: 1.4rem;
+                    margin-left: 0;
+                    height: 100%;
+                    width: 77%;
+                }
+            }
+        }
+    }
+}

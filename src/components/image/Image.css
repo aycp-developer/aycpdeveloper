@@ -1,0 +1,12 @@
+.image {
+  box-shadow: 0 0 20px black;
+  opacity: 0;
+  transition: opacity 0.5 ease-in;
+  border-radius: 0.4rem;
+  height: 25rem;
+  width: 14rem;
+}
+
+.loaded {
+  opacity: 1;
+}/*# sourceMappingURL=Image.css.map */

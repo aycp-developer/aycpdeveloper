@@ -1,0 +1,130 @@
+.technologies {
+  --s: 78px;
+  --tree-color: #1A5465;
+  --ornament-color: #62AEC2;
+  --snowflake-color: #62AEC2;
+  --background-color: #000000;
+  --_c: var(--tree-color), var(--background-color) 1deg 79deg,
+      var(--background-color) 81deg;
+  --g0: conic-gradient(from 140deg at 50% 87.5%, var(--_c));
+  --g1: conic-gradient(from 140deg at 50% 81.25%, var(--_c));
+  --g2: conic-gradient(from 140deg at 50% 75%, var(--_c));
+  --g3: conic-gradient(at 10% 20%, #0000 75%, var(--snowflake-color) 0);
+  --g4: repeating-conic-gradient(from 45deg,
+          var(--ornament-color) 0 25%,
+          #fff 0 50%);
+  background: var(--g0) 0 calc(var(--s) / -4), var(--g0) var(--s) calc(3 * var(--s) / 4), var(--g1), var(--g1) var(--s) var(--s), var(--g2) 0 calc(var(--s) / 4), var(--g2) var(--s) calc(5 * var(--s) / 4), var(--g3) calc(var(--s) / -10) var(--s), var(--g3) calc(9 * var(--s) / 10) calc(2 * var(--s)), var(--g4) calc(var(--s) / 2) var(--s);
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+  background-position: center center;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 6rem;
+  height: 100vh;
+  width: 100vw;
+}
+.technologies .knowledge-subtitle {
+  color: white;
+  font-size: 1rem;
+}
+.technologies .technologies-title {
+  background-image: linear-gradient(to right, #1A5465, #62AEC2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3rem;
+  margin: 1.4rem 0;
+}
+.technologies .tech-stack-names-paragraph {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  margin: 0;
+  padding-bottom: 1.4rem;
+  height: 15.4%;
+  width: 78%;
+}
+.technologies .tech-stack {
+  background-color: cadetblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 1rem;
+  padding: 0;
+  height: 37%;
+  width: 78%;
+}
+.technologies .tech-stack .icon {
+  color: white;
+  font-size: 4.5rem;
+}
+.technologies .tech-stack .bash {
+  font-size: 4.5rem;
+}
+.technologies .tech-stack .express {
+  font-size: 5rem;
+}
+.technologies .tech-stack .github {
+  font-size: 4.5rem;
+}
+
+@media (max-width: 429px) {
+  .technologies {
+    padding-bottom: 0;
+    height: 32rem;
+  }
+  .technologies .knowledge-subtitle {
+    font-size: 0.8rem;
+  }
+  .technologies .technologies-title {
+    font-size: 1.7rem;
+  }
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.3rem;
+    height: 5rem;
+    width: 92vw;
+  }
+  .technologies .tech-stack {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    height: 13.4rem;
+    width: 92vw;
+  }
+  .technologies .tech-stack .svg-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+  .technologies .tech-stack .icon {
+    font-size: 2.5rem;
+  }
+  .technologies .tech-stack .bash {
+    font-size: 3.4rem;
+  }
+  .technologies .tech-stack .express {
+    font-size: 3.8rem;
+  }
+  .technologies .tech-stack .github {
+    font-size: 3.4rem;
+  }
+}
+@media (max-width: 377px) {
+  .technologies .technologies-title {
+    font-size: 1.6rem;
+  }
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.2rem;
+    height: 5.6rem;
+  }
+}
+@media (max-width: 369px) {
+  .technologies .technologies-title {
+    font-size: 1.5rem;
+  }
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.1rem;
+    height: 4rem;
+  }
+}/*# sourceMappingURL=Technologies.css.map */

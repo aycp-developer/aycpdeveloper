@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 67vw;
+  color: white;
+  height: 12.5vh;
+  width: 100vw;
+}
+.navbar .aycpdeveloper-logo {
+  height: 2.4rem;
+  width: 6.2rem;
+}
+.navbar .aycpdeveloper-logo:hover {
+  cursor: pointer;
+}
+.navbar .contact-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar .contact-me-container .contact-me {
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.navbar .contact-me-container .contact-me:hover {
+  cursor: pointer;
+}
+.navbar .contact-me-container .div1 {
+  position: relative;
+  width: 6rem;
+}
+.navbar .contact-me-container .div1 .whatsapp-button {
+  /* Glassmorphism card effect */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(230, 235, 242, 0.125);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  z-index: 2;
+  height: 6rem;
+  width: 6rem;
+}
+
+@media (max-width: 429px) {
+  .navbar {
+    gap: 34vw;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

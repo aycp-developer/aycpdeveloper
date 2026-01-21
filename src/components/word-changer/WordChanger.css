@@ -1,0 +1,91 @@
+.word-changer {
+  height: 100%;
+  width: 100%;
+}
+.word-changer .loader {
+  color: rgb(124, 124, 124);
+  font-family: "Poppins", sans-serif;
+  box-sizing: content-box;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.word-changer .loader .developer {
+  background-image: linear-gradient(to right, #1A5465, #62AEC2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+.word-changer .loader .div2 {
+  overflow: hidden;
+  position: relative;
+}
+.word-changer .loader .div2 .words .words::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(var(--bg-color) 10%, transparent 30%, transparent 70%, var(--bg-color) 90%);
+  z-index: 20;
+}
+.word-changer .loader .div2 .words .word {
+  display: block;
+  text-align: start;
+  height: 100%;
+  padding-left: 1.8vw;
+  color: #62AEC2;
+  animation: spin_4991 4s infinite;
+}
+.word-changer .loader .div2 .words .word .end-exclamation {
+  color: white;
+}
+
+@keyframes spin_4991 {
+  10% {
+    transform: translateY(-102%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-202%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-302%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-402%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+}
+@media (max-width: 429px) {
+  .word-changer {
+    height: 100%;
+    width: 100%;
+  }
+  .word-changer .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .word-changer .loader .div2 {
+    height: 48%;
+  }
+  .word-changer .loader .div2 .words .word {
+    padding-bottom: -0.1vh;
+    padding-left: 0;
+  }
+}
+@media (max-width: 377px) {
+  .word-changer .loader {
+    padding-top: 0;
+  }
+}/*# sourceMappingURL=WordChanger.css.map */

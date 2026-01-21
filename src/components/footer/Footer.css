@@ -1,0 +1,181 @@
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 100vw;
+}
+.footer .div3 {
+  position: relative;
+  z-index: 2;
+  height: 30%;
+  width: 95%;
+}
+.footer .div3 .content {
+  /* Glassmorphism card effect */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(230, 235, 242, 0.125);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  position: absolute;
+  letter-spacing: 0.4px;
+  border-radius: 1.4rem;
+  height: 14rem;
+  width: 100%;
+}
+.footer .div3 .content .recommended-resources-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: end;
+  height: 80%;
+  width: 100%;
+}
+.footer .div3 .content .recommended-resources-container .aycpdeveloper-logo {
+  position: absolute;
+  top: 14%;
+  left: 4.5%;
+  height: 2rem;
+  width: 5rem;
+}
+.footer .div3 .content .recommended-resources-container .recommended-pages {
+  margin-right: 4.5rem;
+  height: 84%;
+}
+.footer .div3 .content .recommended-resources-container .recommended-pages h2 {
+  color: white;
+  font-size: 0.76rem;
+  font-weight: bold;
+  margin: 1rem 0 0.6rem 0;
+}
+.footer .div3 .content .recommended-resources-container .recommended-pages ul {
+  color: chocolate;
+  margin: 0;
+  padding: 0;
+  height: 85%;
+}
+.footer .div3 .content .recommended-resources-container .recommended-pages ul li {
+  list-style: none;
+  opacity: 0.7;
+  margin: 0 0 0.2rem 0;
+}
+.footer .div3 .content .recommended-resources-container .recommended-pages ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.76rem;
+}
+.footer .div3 .content .recommended-resources-container .recommended-channels {
+  margin-right: 4.5rem;
+  height: 84%;
+}
+.footer .div3 .content .recommended-resources-container .recommended-channels h2 {
+  color: white;
+  font-size: 0.76rem;
+  font-weight: bold;
+  margin: 1rem 0 0.6rem 0;
+}
+.footer .div3 .content .recommended-resources-container .recommended-channels ul {
+  color: chocolate;
+  margin: 0;
+  padding: 0;
+  height: 85%;
+}
+.footer .div3 .content .recommended-resources-container .recommended-channels ul li {
+  list-style: none;
+  opacity: 0.7;
+  margin: 0 0 0.2rem 0;
+}
+.footer .div3 .content .recommended-resources-container .recommended-channels ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.76rem;
+}
+.footer .div3 .content .recommended-resources-container .recommended-bootcamps {
+  margin-right: 4.5rem;
+  height: 84%;
+}
+.footer .div3 .content .recommended-resources-container .recommended-bootcamps h2 {
+  color: white;
+  font-size: 0.76rem;
+  font-weight: bold;
+  margin: 1rem 0 0.6rem 0;
+}
+.footer .div3 .content .recommended-resources-container .recommended-bootcamps ul {
+  color: chocolate;
+  margin: 0;
+  padding: 0;
+  height: 85%;
+}
+.footer .div3 .content .recommended-resources-container .recommended-bootcamps ul li {
+  list-style: none;
+  opacity: 0.7;
+  margin: 0 0 0.2rem 0;
+}
+.footer .div3 .content .recommended-resources-container .recommended-bootcamps ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.76rem;
+}
+.footer .div3 .content .copyright {
+  color: white;
+  font-size: 0.76rem;
+  margin: 0 0 0 2.7rem;
+}
+.footer .div4 {
+  position: relative;
+  z-index: 1;
+  height: 70%;
+  width: 100%;
+}
+.footer .div4 .background-footer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 429px) {
+  .footer {
+    height: 10.5rem;
+  }
+  .footer .div3 {
+    width: 94%;
+  }
+  .footer .div3 .content {
+    display: flex;
+    height: 9.7rem;
+  }
+  .footer .div3 .content .recommended-resources-container {
+    justify-content: center;
+    border-top-left-radius: 1.4rem;
+    border-bottom-left-radius: 1.4rem;
+    height: 100%;
+    width: 28%;
+  }
+  .footer .div3 .content .recommended-resources-container .aycpdeveloper-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .footer .div3 .content .recommended-resources-container .recommended-pages {
+    display: none;
+  }
+  .footer .div3 .content .recommended-resources-container .recommended-channels {
+    display: none;
+  }
+  .footer .div3 .content .recommended-resources-container .recommended-bootcamps {
+    display: none;
+  }
+  .footer .div3 .content .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-right-radius: 1.4rem;
+    border-bottom-right-radius: 1.4rem;
+    margin-left: 0;
+    height: 100%;
+    width: 77%;
+  }
+}/*# sourceMappingURL=Footer.css.map */

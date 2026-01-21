@@ -1,0 +1,72 @@
+@mixin background {
+    --s: 78px;
+
+    --tree-color: #1A5465;
+    --ornament-color: #62AEC2;
+    --snowflake-color: #62AEC2;
+    --background-color: #000000;
+
+    --_c: var(--tree-color), var(--background-color) 1deg 79deg,
+        var(--background-color) 81deg;
+
+    --g0: conic-gradient(from 140deg at 50% 87.5%, var(--_c));
+    --g1: conic-gradient(from 140deg at 50% 81.25%, var(--_c));
+    --g2: conic-gradient(from 140deg at 50% 75%, var(--_c));
+
+    --g3: conic-gradient(at 10% 20%, #0000 75%, var(--snowflake-color) 0);
+    --g4: repeating-conic-gradient(from 45deg,
+            var(--ornament-color) 0 25%,
+            #fff 0 50%);
+
+    background:
+        var(--g0) 0 calc(var(--s) / -4),
+        var(--g0) var(--s) calc(3 * var(--s) / 4),
+        var(--g1),
+        var(--g1) var(--s) var(--s),
+        var(--g2) 0 calc(var(--s) / 4),
+        var(--g2) var(--s) calc(5 * var(--s) / 4),
+        var(--g3) calc(var(--s) / -10) var(--s),
+        var(--g3) calc(9 * var(--s) / 10) calc(2 * var(--s)),
+        var(--g4) calc(var(--s) / 2) var(--s);
+
+    background-size: calc(2 * var(--s)) calc(2 * var(--s));
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin degrade-blue-text {
+    background-image: linear-gradient(to right, #1A5465, #62AEC2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin glassmorphism-card-effect {
+    /* Glassmorphism card effect */
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(230, 235, 242, 0.125);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    position: absolute;
+}
+
+@mixin window-container-config {
+    top: 0%;
+    left: 0%;
+    height: 99.8%;
+    width: 99.9%;
+}
+
+@mixin x-config {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    border-radius: 0.4rem;
+    height: 4.5rem;
+    width: 4.5rem;
+}

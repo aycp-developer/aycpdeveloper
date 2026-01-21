@@ -1,0 +1,140 @@
+.tech-stack {
+  --s: 78px;
+  --tree-color: #1A5465;
+  --ornament-color: #62AEC2;
+  --snowflake-color: #62AEC2;
+  --background-color: #000000;
+  --_c: var(--tree-color), var(--background-color) 1deg 79deg,
+      var(--background-color) 81deg;
+  --g0: conic-gradient(from 140deg at 50% 87.5%, var(--_c));
+  --g1: conic-gradient(from 140deg at 50% 81.25%, var(--_c));
+  --g2: conic-gradient(from 140deg at 50% 75%, var(--_c));
+  --g3: conic-gradient(at 10% 20%, #0000 75%, var(--snowflake-color) 0);
+  --g4: repeating-conic-gradient(from 45deg,
+          var(--ornament-color) 0 25%,
+          #fff 0 50%);
+  background: var(--g0) 0 calc(var(--s) / -4), var(--g0) var(--s) calc(3 * var(--s) / 4), var(--g1), var(--g1) var(--s) var(--s), var(--g2) 0 calc(var(--s) / 4), var(--g2) var(--s) calc(5 * var(--s) / 4), var(--g3) calc(var(--s) / -10) var(--s), var(--g3) calc(9 * var(--s) / 10) calc(2 * var(--s)), var(--g4) calc(var(--s) / 2) var(--s);
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+  background-position: center center;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 4.5rem;
+  height: 130vh;
+  width: 100vw;
+}
+.tech-stack .fullstack-subtitle {
+  color: white;
+  font-size: 1rem;
+}
+.tech-stack .tech-stack-title {
+  background-image: linear-gradient(to right, #1A5465, #62AEC2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3rem;
+  margin: 1.4rem 0;
+}
+.tech-stack .tech-stack-paragraph {
+  text-align: center;
+  color: white;
+  font-size: 1.9rem;
+  margin: 0 0 1.6rem 0;
+  height: 12%;
+  width: 78%;
+}
+.tech-stack .desktop-tech-stack-images {
+  display: flex;
+  position: relative;
+  height: 21.7rem;
+  width: 50rem;
+}
+.tech-stack .desktop-tech-stack-images .frontend {
+  transition: all 0.3s;
+  border-radius: 0.8rem;
+  height: 21.5rem;
+  width: 39.1rem;
+}
+.tech-stack .desktop-tech-stack-images .backend {
+  transition: all 0.3s;
+  border-radius: 0.8rem;
+  height: 21.5rem;
+  width: 39.1rem;
+}
+.tech-stack .mobile-tech-stack-images {
+  display: none;
+}
+
+@media (max-width: 429px) {
+  .tech-stack {
+    padding-bottom: 0;
+    height: 26rem;
+  }
+  .tech-stack .fullstack-subtitle {
+    font-size: 0.8rem;
+  }
+  .tech-stack .tech-stack-title {
+    font-size: 1.7rem;
+  }
+  .tech-stack .tech-stack-paragraph {
+    font-size: 1.3rem;
+    height: 4.5rem;
+    width: 92vw;
+  }
+  .tech-stack .desktop-tech-stack-images {
+    display: none;
+  }
+  .tech-stack .mobile-tech-stack-images {
+    display: block;
+    position: relative;
+    height: 11.3rem;
+    width: 87vw;
+  }
+  .tech-stack .mobile-tech-stack-images .frontend {
+    transition: all 0.3s;
+    border-radius: 0.4rem;
+    height: 97.79%;
+    width: 85.95%;
+  }
+  .tech-stack .mobile-tech-stack-images .backend {
+    transition: all 0.3s;
+    border-radius: 0.4rem;
+    height: 97.79%;
+    width: 85.95%;
+  }
+}
+@media (max-width: 377px) {
+  .tech-stack .tech-stack-title {
+    font-size: 1.6rem;
+  }
+  .tech-stack .tech-stack-paragraph {
+    font-size: 1.2rem;
+    height: 4.5rem;
+    width: 92vw;
+  }
+  .tech-stack .mobile-tech-stack-images {
+    height: 10.3rem;
+    width: 87vw;
+  }
+}
+@media (max-width: 369px) {
+  .tech-stack .tech-stack-title {
+    font-size: 1.5rem;
+  }
+  .tech-stack .tech-stack-paragraph {
+    font-size: 1.1rem;
+    height: 4.5rem;
+    width: 92vw;
+  }
+  .tech-stack .mobile-tech-stack-images {
+    height: 9.9rem;
+    width: 86.8vw;
+  }
+}
+@media (max-width: 361px) {
+  .tech-stack .mobile-tech-stack-images {
+    height: 9.5rem;
+    width: 86.7vw;
+  }
+}/*# sourceMappingURL=TechStack.css.map */

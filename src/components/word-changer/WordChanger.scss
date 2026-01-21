@@ -1,0 +1,127 @@
+@use "../../sass/styles";
+
+.word-changer {
+    height: 100%;
+    width: 100%;
+
+    .loader {
+        color: rgb(124, 124, 124);
+        font-family: "Poppins", sans-serif;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+        .developer {
+            @include styles.degrade-blue-text;
+            margin: 0;
+        }
+
+        .div2 {
+            overflow: hidden;
+            position: relative;
+
+            .words {
+                .words::after {
+                    content: "";
+                    position: absolute;
+                    inset: 0;
+                    background: linear-gradient(var(--bg-color) 10%,
+                            transparent 30%,
+                            transparent 70%,
+                            var(--bg-color) 90%);
+                    z-index: 20;
+                }
+
+                .word {
+                    display: block;
+                    text-align: start;
+                    height: 100%;
+                    padding-left: 1.8vw;
+                    color: #62AEC2;
+                    animation: spin_4991 4s infinite;
+
+                    .end-exclamation {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes spin_4991 {
+    10% {
+        -webkit-transform: translateY(-102%);
+        transform: translateY(-102%);
+    }
+
+    25% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    35% {
+        -webkit-transform: translateY(-202%);
+        transform: translateY(-202%);
+    }
+
+    50% {
+        -webkit-transform: translateY(-200%);
+        transform: translateY(-200%);
+    }
+
+    60% {
+        -webkit-transform: translateY(-302%);
+        transform: translateY(-302%);
+    }
+
+    75% {
+        -webkit-transform: translateY(-300%);
+        transform: translateY(-300%);
+    }
+
+    85% {
+        -webkit-transform: translateY(-402%);
+        transform: translateY(-402%);
+    }
+
+    100% {
+        -webkit-transform: translateY(-400%);
+        transform: translateY(-400%);
+    }
+}
+
+@media (max-width: 429px) {
+    .word-changer {
+        height: 100%;
+        width: 100%;
+
+        .loader {
+            @include styles.center;
+            flex-direction: column;
+
+            .div2 {
+                height: 48%;
+
+                .words {
+                    .word {
+                        padding-bottom: -0.10vh;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 377px) {
+    .word-changer {
+        .loader {
+            padding-top: 0;
+        }
+    }
+}

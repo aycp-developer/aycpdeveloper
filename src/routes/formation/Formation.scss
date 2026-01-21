@@ -1,0 +1,27 @@
+@use "../../sass/styles";
+
+.formation {
+    @include styles.center;
+    background-color: black;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+    .campus-subtitle {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .formation-title {
+        @include styles.degrade-blue-text;
+        font-size: 2.3rem;
+        margin: 0;
+    }
+
+    // .formation-paragraph {
+    //     color: var(--gray-color);
+    //     font-size: 1.7vw;
+    //     margin: 0;
+    //     width: 78%;
+    // }
+}

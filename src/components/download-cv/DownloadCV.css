@@ -1,0 +1,11 @@
+.download-cv {
+  height: 100%;
+  width: 25%;
+}
+
+@media (max-width: 429px) {
+  .download-cv {
+    height: 28%;
+    width: 100%;
+  }
+}/*# sourceMappingURL=DownloadCV.css.map */

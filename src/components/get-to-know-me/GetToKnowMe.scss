@@ -1,0 +1,35 @@
+@use '../../sass/styles';
+
+.get-to-know-me {
+    height: 100%;
+    width: 25%;
+
+    .profile-picture-window-container {
+        @include styles.glassmorphism-card-effect;
+        @include styles.window-container-config;
+        @include styles.center;
+
+        .x-icon-container {
+            @include styles.x-config;
+            @include styles.center;
+        }
+    }
+}
+
+@media (max-width: 429px) {
+    .get-to-know-me {
+        height: 28%;
+        width: 100%;
+
+        .profile-picture-window-container {
+            flex-direction: column-reverse;
+            gap: 2rem;
+
+            .x-icon-container {
+                position: relative;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}

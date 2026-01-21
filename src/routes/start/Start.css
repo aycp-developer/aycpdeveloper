@@ -1,0 +1,151 @@
+.start {
+  --s: 78px;
+  --tree-color: #1A5465;
+  --ornament-color: #62AEC2;
+  --snowflake-color: #62AEC2;
+  --background-color: #000000;
+  --_c: var(--tree-color), var(--background-color) 1deg 79deg,
+      var(--background-color) 81deg;
+  --g0: conic-gradient(from 140deg at 50% 87.5%, var(--_c));
+  --g1: conic-gradient(from 140deg at 50% 81.25%, var(--_c));
+  --g2: conic-gradient(from 140deg at 50% 75%, var(--_c));
+  --g3: conic-gradient(at 10% 20%, #0000 75%, var(--snowflake-color) 0);
+  --g4: repeating-conic-gradient(from 45deg,
+          var(--ornament-color) 0 25%,
+          #fff 0 50%);
+  background: var(--g0) 0 calc(var(--s) / -4), var(--g0) var(--s) calc(3 * var(--s) / 4), var(--g1), var(--g1) var(--s) var(--s), var(--g2) 0 calc(var(--s) / 4), var(--g2) var(--s) calc(5 * var(--s) / 4), var(--g3) calc(var(--s) / -10) var(--s), var(--g3) calc(9 * var(--s) / 10) calc(2 * var(--s)), var(--g4) calc(var(--s) / 2) var(--s);
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+  background-position: center center;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 4rem;
+  height: 87.5vh;
+  width: 100vw;
+}
+.start .titles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2.3rem;
+  height: 56%;
+  width: 100%;
+}
+.start .titles-container .get-to-know-me-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 82%;
+  width: 78%;
+}
+.start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 3.14rem;
+  font-weight: bold;
+  margin: 0;
+  height: 67%;
+  width: 100%;
+}
+.start .titles-container .get-to-know-me-title-container .word-changer-container {
+  font-size: 3.14rem;
+  font-weight: bold;
+  height: 33%;
+  width: 85.5%;
+}
+.start .titles-container .art-science-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-color);
+  font-size: 1.2rem;
+  height: 18%;
+}
+.start .buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  width: 78%;
+}
+
+@media (max-width: 429px) {
+  .start {
+    justify-content: center;
+    gap: 0rem;
+    padding-bottom: 0;
+    height: 37rem;
+  }
+  .start .titles-container {
+    justify-content: space-between;
+    margin-top: 0;
+    height: 20.7rem;
+    width: 92vw;
+  }
+  .start .titles-container .get-to-know-me-title-container {
+    height: 83%;
+    width: 100%;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 2.35rem;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: start;
+    font-size: 2.35rem;
+  }
+  .start .titles-container .art-science-subtitle {
+    font-size: 0.9rem;
+    height: 12%;
+    width: 100%;
+  }
+  .start .buttons-container {
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 12rem;
+    width: 65vw;
+  }
+}
+@media (max-width: 377px) {
+  .start .titles-container .get-to-know-me-title-container {
+    height: 81%;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 2.3rem;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 369px) {
+  .start .titles-container .get-to-know-me-title-container {
+    height: 80%;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 2.25rem;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 2.25rem;
+  }
+}
+@media (max-width: 361px) {
+  .start .titles-container .get-to-know-me-title-container {
+    height: 79%;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 2.2rem;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 2.2rem;
+  }
+}/*# sourceMappingURL=Start.css.map */

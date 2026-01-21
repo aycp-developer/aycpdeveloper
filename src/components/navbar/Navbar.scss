@@ -1,0 +1,55 @@
+@use '../../sass/styles';
+
+.navbar {
+    @include styles.center;
+    background-color: black;
+    gap: 67vw;
+    color: white;
+    height: 12.5vh;
+    width: 100vw;
+
+    .aycpdeveloper-logo {
+        height: 2.4rem;
+        width: 6.2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .contact-me-container {
+        @include styles.center;
+        flex-direction: column;
+
+        .contact-me {
+            color: white;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .div1 {
+            position: relative;
+            width: 6rem;
+
+            .whatsapp-button {
+                @include styles.glassmorphism-card-effect;
+                @include styles.center;
+                border-radius: 0.4rem;
+                z-index: 2;
+                height: 6rem;
+                width: 6rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 429px) {
+    .navbar {
+        gap: 34vw;
+    }
+}

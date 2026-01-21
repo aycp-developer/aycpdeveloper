@@ -1,0 +1,46 @@
+.get-to-know-me {
+  height: 100%;
+  width: 25%;
+}
+.get-to-know-me .profile-picture-window-container {
+  /* Glassmorphism card effect */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(230, 235, 242, 0.125);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 99.8%;
+  width: 99.9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-to-know-me .profile-picture-window-container .x-icon-container {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border-radius: 0.4rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 429px) {
+  .get-to-know-me {
+    height: 28%;
+    width: 100%;
+  }
+  .get-to-know-me .profile-picture-window-container {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .get-to-know-me .profile-picture-window-container .x-icon-container {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}/*# sourceMappingURL=GetToKnowMe.css.map */
