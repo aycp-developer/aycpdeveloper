@@ -23,7 +23,7 @@ const TechStack = () => {
                 />
             </span>
             <h2 className='tech-stack-title'>
-                Teck Stack
+                Tech Stack
             </h2>
             <p className='tech-stack-paragraph'>
                 Mi pila tecnológica preferida es {frontendTechStackColorText('Frontend')} con {frontendTechStackColorText('ReactJS')} {frontendTechStackColorText('+')} {frontendTechStackColorText('Javascript')} y {backendTechStackColorText('Backend')} con {backendTechStackColorText('SpringBoot')} {backendTechStackColorText('+')} {backendTechStackColorText('Java')}.
