@@ -1,1 +1,1 @@
-{"version":3,"sources":["Whatsapp.scss","Whatsapp.css"],"names":[],"mappings":"AAAA;EACI,mCAAA;EACA,YAAA;EACA,kBAAA;EACA,qBAAA;EACA,eAAA;EACA,cAAA;EACA,aAAA;ACCJ;ADCI;EACI,eAAA;ACCR","file":"Whatsapp.css"}
+{"version":3,"sources":["Whatsapp.scss","Whatsapp.css"],"names":[],"mappings":"AAAA;EACI,mCAAA;EACA,YAAA;EACA,kBAAA;EACA,qBAAA;EACA,eAAA;EACA,YAAA;EACA,WAAA;ACCJ;ADCI;EACI,eAAA;ACCR;;ADGA;EACI;IACI,cAAA;IACA,aAAA;ECAN;AACF","file":"Whatsapp.css"}
