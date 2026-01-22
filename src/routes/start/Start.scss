@@ -66,23 +66,27 @@
         height: 37rem;
 
         .titles-container {
-            justify-content: space-between;
+            justify-content: space-around;
             margin-top: 0;
-            height: 20.7rem;
+            height: 17rem;
             width: 92vw;
 
             .get-to-know-me-title-container {
-                height: 83%;
+                height: 78%;
                 width: 100%;
 
                 .get-to-know-me-title {
-                    font-size: 2.35rem;
+                    font-size: 2rem;
+                    height: 54%;
+                    width: 100%;
                 }
 
                 .word-changer-container {
                     @include styles.center;
                     align-items: start;
-                    font-size: 2.35rem;
+                    font-size: 2rem;
+                    height: 36%;
+                    width: 100%;
                 }
             }
 
@@ -102,18 +106,112 @@
     }
 }
 
-@media (max-width: 377px) {
+@media (max-width: 403px) {
     .start {
         .titles-container {
+            justify-content: center;
+
             .get-to-know-me-title-container {
-                height: 81%;
+                height: 88%;
 
                 .get-to-know-me-title {
-                    font-size: 2.3rem;
+                    font-size: 1.96rem;
+                    height: 47%;
                 }
 
                 .word-changer-container {
-                    font-size: 2.3rem;
+                    font-size: 1.96rem;
+                    height: 33%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 395px) {
+    .start {
+        .titles-container {
+            .get-to-know-me-title-container {
+                height: 86%;
+
+                .get-to-know-me-title {
+                    font-size: 1.92rem;
+                }
+
+                .word-changer-container {
+                    font-size: 1.92rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .start {
+        .titles-container {
+            .get-to-know-me-title-container {
+                .get-to-know-me-title {
+                    font-size: 1.90rem;
+                    height: 47%;
+                }
+
+                .word-changer-container {
+                    font-size: 1.90rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 383px) {
+    .start {
+        .titles-container {
+            justify-content: center;
+
+            .get-to-know-me-title-container {
+                .get-to-know-me-title {
+                    font-size: 1.87rem;
+                }
+
+                .word-changer-container {
+                    font-size: 1.87rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 377px) {
+    .start {
+        .titles-container {
+            align-content: center;
+
+            .get-to-know-me-title-container {
+                .get-to-know-me-title {
+                    font-size: 1.84rem;
+                    height: 46%;
+                }
+
+                .word-changer-container {
+                    font-size: 1.84rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 371px) {
+    .start {
+        .titles-container {
+            align-content: center;
+
+            .get-to-know-me-title-container {
+                .get-to-know-me-title {
+                    font-size: 1.81rem;
+                }
+
+                .word-changer-container {
+                    font-size: 1.81rem;
                 }
             }
         }
@@ -124,32 +222,13 @@
     .start {
         .titles-container {
             .get-to-know-me-title-container {
-                height: 80%;
-
                 .get-to-know-me-title {
-                    font-size: 2.25rem;
+                    font-size: 1.78rem;
+                    height: 44%;
                 }
 
                 .word-changer-container {
-                    font-size: 2.25rem;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 361px) {
-    .start {
-        .titles-container {
-            .get-to-know-me-title-container {
-                height: 79%;
-
-                .get-to-know-me-title {
-                    font-size: 2.2rem;
-                }
-
-                .word-changer-container {
-                    font-size: 2.2rem;
+                    font-size: 1.78rem;
                 }
             }
         }

@@ -85,24 +85,28 @@
     height: 37rem;
   }
   .start .titles-container {
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 0;
-    height: 20.7rem;
+    height: 17rem;
     width: 92vw;
   }
   .start .titles-container .get-to-know-me-title-container {
-    height: 83%;
+    height: 78%;
     width: 100%;
   }
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
-    font-size: 2.35rem;
+    font-size: 2rem;
+    height: 54%;
+    width: 100%;
   }
   .start .titles-container .get-to-know-me-title-container .word-changer-container {
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: start;
-    font-size: 2.35rem;
+    font-size: 2rem;
+    height: 36%;
+    width: 100%;
   }
   .start .titles-container .art-science-subtitle {
     font-size: 0.9rem;
@@ -116,36 +120,82 @@
     width: 65vw;
   }
 }
-@media (max-width: 377px) {
+@media (max-width: 403px) {
+  .start .titles-container {
+    justify-content: center;
+  }
   .start .titles-container .get-to-know-me-title-container {
-    height: 81%;
+    height: 88%;
   }
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
-    font-size: 2.3rem;
+    font-size: 1.96rem;
+    height: 47%;
   }
   .start .titles-container .get-to-know-me-title-container .word-changer-container {
-    font-size: 2.3rem;
+    font-size: 1.96rem;
+    height: 33%;
+  }
+}
+@media (max-width: 395px) {
+  .start .titles-container .get-to-know-me-title-container {
+    height: 86%;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 1.92rem;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 1.92rem;
+  }
+}
+@media (max-width: 390px) {
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 1.9rem;
+    height: 47%;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 383px) {
+  .start .titles-container {
+    justify-content: center;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 1.87rem;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 1.87rem;
+  }
+}
+@media (max-width: 377px) {
+  .start .titles-container {
+    align-content: center;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 1.84rem;
+    height: 46%;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 1.84rem;
+  }
+}
+@media (max-width: 371px) {
+  .start .titles-container {
+    align-content: center;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 1.81rem;
+  }
+  .start .titles-container .get-to-know-me-title-container .word-changer-container {
+    font-size: 1.81rem;
   }
 }
 @media (max-width: 369px) {
-  .start .titles-container .get-to-know-me-title-container {
-    height: 80%;
-  }
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
-    font-size: 2.25rem;
+    font-size: 1.78rem;
+    height: 44%;
   }
   .start .titles-container .get-to-know-me-title-container .word-changer-container {
-    font-size: 2.25rem;
-  }
-}
-@media (max-width: 361px) {
-  .start .titles-container .get-to-know-me-title-container {
-    height: 79%;
-  }
-  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
-    font-size: 2.2rem;
-  }
-  .start .titles-container .get-to-know-me-title-container .word-changer-container {
-    font-size: 2.2rem;
+    font-size: 1.78rem;
   }
 }/*# sourceMappingURL=Start.css.map */
