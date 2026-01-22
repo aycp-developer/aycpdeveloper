@@ -3,9 +3,10 @@
 .navbar {
     @include styles.center;
     background-color: black;
+    align-items: end;
     gap: 67vw;
     color: white;
-    height: 12.5vh;
+    height: 14vh;
     width: 100vw;
 
     .aycpdeveloper-logo {
@@ -20,6 +21,8 @@
     .contact-me-container {
         @include styles.center;
         flex-direction: column;
+        height: 2.4rem;
+        width: 6.2rem;
 
         .contact-me {
             color: white;
@@ -42,7 +45,7 @@
                 border-radius: 0.4rem;
                 z-index: 2;
                 height: 6rem;
-                width: 6rem;
+                width: 100%;
             }
         }
     }
@@ -50,6 +53,31 @@
 
 @media (max-width: 429px) {
     .navbar {
+        align-items: end;
         gap: 34vw;
+        height: 10vh;
+
+        .aycpdeveloper-logo {
+            height: 2.1rem;
+            width: 5.6rem;
+        }
+
+        .contact-me-container {
+            height: 2.1rem;
+            width: 5.6rem;
+
+            .contact-me {
+                font-size: 0.78rem;
+            }
+
+            .div1 {
+                width: 5.6rem;
+
+                .whatsapp-button {
+                    height: 5.6rem;
+                    width: 100%;
+                }
+            }
+        }
     }
 }

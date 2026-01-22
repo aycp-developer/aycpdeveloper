@@ -3,9 +3,10 @@
   justify-content: center;
   align-items: center;
   background-color: black;
+  align-items: end;
   gap: 67vw;
   color: white;
-  height: 12.5vh;
+  height: 14vh;
   width: 100vw;
 }
 .navbar .aycpdeveloper-logo {
@@ -20,6 +21,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 2.4rem;
+  width: 6.2rem;
 }
 .navbar .contact-me-container .contact-me {
   color: white;
@@ -47,11 +50,31 @@
   border-radius: 0.4rem;
   z-index: 2;
   height: 6rem;
-  width: 6rem;
+  width: 100%;
 }
 
 @media (max-width: 429px) {
   .navbar {
+    align-items: end;
     gap: 34vw;
+    height: 10vh;
+  }
+  .navbar .aycpdeveloper-logo {
+    height: 2.1rem;
+    width: 5.6rem;
+  }
+  .navbar .contact-me-container {
+    height: 2.1rem;
+    width: 5.6rem;
+  }
+  .navbar .contact-me-container .contact-me {
+    font-size: 0.78rem;
+  }
+  .navbar .contact-me-container .div1 {
+    width: 5.6rem;
+  }
+  .navbar .contact-me-container .div1 .whatsapp-button {
+    height: 5.6rem;
+    width: 100%;
   }
 }/*# sourceMappingURL=Navbar.css.map */
