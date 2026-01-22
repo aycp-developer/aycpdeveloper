@@ -1,0 +1,35 @@
+[33mcommit 77791628db161573a0dacd7a6a1b68f908659128[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Alexander Yosimar Cervantes Pineda <aycp.developer@outlook.com>
+Date:   Thu Jan 22 13:45:22 2026 -0600
+
+    cambio en la ubicación y en el tamaño del logotipo y del botón contáctame en el Navbar
+
+[33mcommit 3d4f1979a2d6be3ebcb90f735c91aee74fb73143[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Alexander Yosimar Cervantes Pineda <aycp.developer@outlook.com>
+Date:   Wed Jan 21 22:49:36 2026 -0600
+
+    corrección ortográfica en el título principal
+
+[33mcommit fbc0b1c88723579b01d948f051dd64b6c365f518[m
+Author: Alexander Yosimar Cervantes Pineda <aycp.developer@outlook.com>
+Date:   Wed Jan 21 22:47:30 2026 -0600
+
+    actualización en el tamaño del título principal
+
+[33mcommit b3e3ecf0616579d3d96e6078e516cd7c48d3ec92[m
+Author: Alexander Yosimar Cervantes Pineda <aycp.developer@outlook.com>
+Date:   Wed Jan 21 17:37:37 2026 -0600
+
+    mensaje cambiado para whatsapp
+
+[33mcommit 770065582b4d9755889d27b250f0c85474132113[m
+Author: Alexander Yosimar Cervantes Pineda <aycp.developer@outlook.com>
+Date:   Wed Jan 21 17:23:43 2026 -0600
+
+    archivo netlify.toml agregado
+
+[33mcommit 4d26b55a8c5620f1406461e8229329cb03b6f896[m
+Author: Alexander Yosimar Cervantes Pineda <aycp.developer@outlook.com>
+Date:   Wed Jan 21 17:12:39 2026 -0600
+
+    app completada

@@ -23,10 +23,8 @@ const Start = () => {
                     <div className='get-to-know-me-title-container'>
                         <h1 className='get-to-know-me-title'>
                             ¡Hola, mi nombre es Alexander Yosimar Cervantes Pineda y soy
-                        </h1>
-                        <div className='word-changer-container'>
                             <WordChanger />
-                        </div>
+                        </h1>
                     </div>
                     <span className='art-science-subtitle'>
                         <DynamicText

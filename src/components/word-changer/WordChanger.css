@@ -1,6 +1,6 @@
 .word-changer {
-  height: 100%;
-  width: 100%;
+  height: 32%;
+  width: 85%;
 }
 .word-changer .loader {
   color: rgb(124, 124, 124);
@@ -30,7 +30,6 @@
 .word-changer .loader .div2 .words .word {
   display: block;
   text-align: start;
-  height: 100%;
   padding-left: 1.8vw;
   color: #62AEC2;
   animation: spin_4991 4s infinite;
@@ -67,7 +66,7 @@
 }
 @media (max-width: 429px) {
   .word-changer {
-    height: 100%;
+    height: 38%;
     width: 100%;
   }
   .word-changer .loader {
@@ -76,16 +75,9 @@
     align-items: center;
     flex-direction: column;
   }
-  .word-changer .loader .div2 {
-    height: 48%;
-  }
   .word-changer .loader .div2 .words .word {
     padding-bottom: -0.1vh;
     padding-left: 0;
-  }
-}
-@media (max-width: 377px) {
-  .word-changer .loader {
-    padding-top: 0;
+    padding-bottom: 1rem;
   }
 }/*# sourceMappingURL=WordChanger.css.map */

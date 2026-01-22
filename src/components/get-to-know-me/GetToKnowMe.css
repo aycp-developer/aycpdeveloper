@@ -31,7 +31,7 @@
 
 @media (max-width: 429px) {
   .get-to-know-me {
-    height: 28%;
+    height: 25%;
     width: 100%;
   }
   .get-to-know-me .profile-picture-window-container {
@@ -42,5 +42,15 @@
     position: relative;
     top: 0;
     right: 0;
+  }
+}
+@media (max-width: 403px) {
+  .get-to-know-me {
+    height: 25%;
+  }
+}
+@media (max-width: 376px) {
+  .get-to-know-me {
+    height: 24%;
   }
 }/*# sourceMappingURL=GetToKnowMe.css.map */
