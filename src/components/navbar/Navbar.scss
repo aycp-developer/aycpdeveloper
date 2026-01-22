@@ -1,13 +1,13 @@
 @use '../../sass/styles';
 
 .navbar {
-    @include styles.center;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
     align-items: end;
-    gap: 67vw;
     color: white;
+    padding: 0 4rem;
     height: 14vh;
-    width: 100vw;
 
     .aycpdeveloper-logo {
         height: 2.4rem;
@@ -53,8 +53,7 @@
 
 @media (max-width: 429px) {
     .navbar {
-        align-items: end;
-        gap: 34vw;
+        padding: 0 1.5rem;
         height: 10vh;
 
         .aycpdeveloper-logo {
