@@ -31,8 +31,8 @@
 
 @media (max-width: 429px) {
     .who-am-i {
-        padding-bottom: 0;
-        height: 30rem;
+        padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+        height: 24rem;
 
         .get-to-know-me-subtitle {
             font-size: 0.8rem;
@@ -43,10 +43,9 @@
         }
 
         .who-am-i-paragraph {
-            font-size: 0.87rem;
-            padding: 0.9rem 1.2rem 0.7rem 1.2rem;
+            font-size: 0.876rem;
+            padding: 0.7rem 1.2rem 0.7rem 1.2rem;
             height: 16.2rem;
-            width: 78vw;
         }
     }
 
@@ -84,6 +83,18 @@
     }
 }
 
+@media (max-width: 387px) {
+    .who-am-i {
+        .who-am-i-title {
+            font-size: 1.6rem;
+        }
+
+        .who-am-i-paragraph {
+            font-size: 0.815rem;
+        }
+    }
+}
+
 @media (max-width: 377px) {
     .who-am-i {
         .who-am-i-title {
@@ -92,24 +103,18 @@
 
         .who-am-i-paragraph {
             font-size: 0.8rem;
-            padding: 0.9rem 1.2rem 0.7rem 1.2rem;
-            height: 16.2rem;
-            width: 78vw;
         }
     }
 }
 
-@media (max-width: 369px) {
+@media (max-width: 366px) {
     .who-am-i {
         .who-am-i-title {
             font-size: 1.5rem;
         }
 
         .who-am-i-paragraph {
-            font-size: 0.8rem;
-            padding: 0.9rem 1.2rem 0.7rem 1.2rem;
-            height: 16.2rem;
-            width: 78vw;
+            font-size: 0.792rem;
         }
     }
 }
