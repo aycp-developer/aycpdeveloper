@@ -5,17 +5,17 @@
 
 @media (max-width: 429px) {
   .download-cv {
-    height: 25%;
+    height: 24%;
     width: 100%;
   }
 }
-@media (max-width: 403px) {
+@media (max-width: 400px) {
   .download-cv {
-    height: 25%;
+    height: 23.5%;
   }
 }
 @media (max-width: 376px) {
   .download-cv {
-    height: 24%;
+    height: 23%;
   }
 }/*# sourceMappingURL=DownloadCV.css.map */
