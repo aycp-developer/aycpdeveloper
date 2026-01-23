@@ -22,7 +22,7 @@ const Start = () => {
                 <div className='titles-container'>
                     <div className='get-to-know-me-title-container'>
                         <h1 className='get-to-know-me-title'>
-                            ¡Hola, mi nombre es Alexander Yosimar Cervantes Pineda y soy
+                            ¡Hola, me llamo Alexander Yosimar y soy un excelente
                             <WordChanger />
                         </h1>
                     </div>
