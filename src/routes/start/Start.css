@@ -22,7 +22,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  padding: 6rem 4rem 4rem 4rem;
+  padding: 6rem 8rem 5rem 8rem;
   height: 20rem;
 }
 .start .titles-container {
@@ -33,10 +33,6 @@
   height: 76%;
 }
 .start .titles-container .get-to-know-me-title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   height: 82%;
 }
 .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
@@ -66,24 +62,24 @@
   align-items: center;
   justify-content: space-between;
   height: 17%;
-  width: 85%;
+  width: 100%;
 }
 
 @media (max-width: 429px) {
   .start {
-    padding: 3rem 1.5rem 2rem 1.5rem;
-    height: 32rem;
+    padding: 3rem 1.5rem 2.5rem 1.5rem;
+    height: 34.5rem;
   }
   .start .titles-container {
     gap: 1rem;
-    height: 54%;
+    height: 56%;
   }
   .start .titles-container .get-to-know-me-title-container {
     height: 70%;
     width: 100%;
   }
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
-    font-size: 2rem;
+    font-size: 2.1rem;
     height: 100%;
     width: 100%;
   }
@@ -95,9 +91,36 @@
   .start .buttons-container {
     flex-direction: column;
     height: 40%;
+    width: 86%;
   }
 }
 @media (max-width: 419px) {
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 2rem;
+    height: 100%;
+    width: 100%;
+  }
+  .start .titles-container .art-science-subtitle {
+    font-size: 0.89rem;
+  }
+}
+@media (max-width: 400px) {
+  .start .titles-container {
+    gap: 0;
+  }
+  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
+    font-size: 1.9rem;
+    height: 100%;
+    width: 100%;
+  }
+  .start .titles-container .art-science-subtitle {
+    font-size: 0.88rem;
+  }
+}
+@media (max-width: 387px) {
+  .start .titles-container {
+    gap: 0;
+  }
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
     font-size: 1.8rem;
     height: 100%;
@@ -105,31 +128,15 @@
   }
   .start .titles-container .art-science-subtitle {
     font-size: 0.87rem;
-    width: 85%;
   }
 }
-@media (max-width: 382px) {
-  .start .titles-container {
-    gap: 0;
-  }
+@media (max-width: 360px) {
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     height: 100%;
     width: 100%;
   }
   .start .titles-container .art-science-subtitle {
-    font-size: 0.84rem;
-    width: 85%;
-  }
-}
-@media (max-width: 361px) {
-  .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
-    font-size: 1.5rem;
-    height: 100%;
-    width: 100%;
-  }
-  .start .titles-container .art-science-subtitle {
-    font-size: 0.83rem;
-    width: 85%;
+    font-size: 0.86rem;
   }
 }/*# sourceMappingURL=Start.css.map */
