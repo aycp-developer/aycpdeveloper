@@ -5,6 +5,7 @@
     width: 99%;
 
     .loader {
+        @include styles.center;
         color: rgb(124, 124, 124);
         font-family: "Poppins", sans-serif;
         -webkit-box-sizing: content-box;
@@ -23,6 +24,7 @@
         .div2 {
             overflow: hidden;
             position: relative;
+            height: 100%;
 
             .words {
                 .words::after {

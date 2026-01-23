@@ -3,6 +3,9 @@
   width: 99%;
 }
 .word-changer .loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: rgb(124, 124, 124);
   font-family: "Poppins", sans-serif;
   box-sizing: content-box;
@@ -19,6 +22,7 @@
 .word-changer .loader .div2 {
   overflow: hidden;
   position: relative;
+  height: 100%;
 }
 .word-changer .loader .div2 .words .words::after {
   content: "";
