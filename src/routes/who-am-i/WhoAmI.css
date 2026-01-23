@@ -21,10 +21,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  letter-spacing: 0.28px;
-  padding-bottom: 6rem;
-  height: 100vh;
-  width: 100vw;
+  padding: 5rem 8rem 5rem 8rem;
+  height: 31rem;
 }
 .who-am-i .get-to-know-me-subtitle {
   color: white;
@@ -35,28 +33,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.3rem;
-  margin-top: 1.4rem;
-  margin-bottom: 1.8rem;
+  margin: 1.5rem 0;
 }
 .who-am-i .who-am-i-paragraph {
   color: var(--gray-color);
-  font-size: 1.28rem;
+  font-size: 1.66rem;
+  letter-spacing: 0.28px;
   border: solid 2px white;
   margin: 0;
-  padding: 1.7rem 2rem 1.5rem 2rem;
-  height: 52%;
-  width: 72%;
-}
-.who-am-i .who-am-i-paragraph .gradient-blue-text {
-  background-image: linear-gradient(to right, #1A5465, #62AEC2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.who-am-i .who-am-i-paragraph .space-left {
-  margin-left: 0.8vw;
-}
-.who-am-i .scroll-effect {
-  color: black;
+  padding: 1.7rem 2rem 1.7rem 2rem;
+  height: 20rem;
 }
 
 @media (max-width: 429px) {

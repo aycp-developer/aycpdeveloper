@@ -4,10 +4,8 @@
     @include styles.background;
     @include styles.center;
     flex-direction: column;
-    letter-spacing: 0.28px;
-    padding-bottom: 6rem;
-    height: 100vh;
-    width: 100vw;
+    padding: 5rem 8rem 5rem 8rem;
+    height: 31rem;
 
     .get-to-know-me-subtitle {
         color: white;
@@ -17,30 +15,17 @@
     .who-am-i-title {
         @include styles.degrade-blue-text;
         font-size: 2.3rem;
-        margin-top: 1.4rem;
-        margin-bottom: 1.8rem;
+        margin: 1.5rem 0;
     }
 
     .who-am-i-paragraph {
         color: var(--gray-color);
-        font-size: 1.28rem;
+        font-size: 1.66rem;
+        letter-spacing: 0.28px;
         border: solid 2px white;
         margin: 0;
-        padding: 1.7rem 2rem 1.5rem 2rem;
-        height: 52%;
-        width: 72%;
-
-        .gradient-blue-text {
-            @include styles.degrade-blue-text;
-        }
-
-        .space-left {
-            margin-left: 0.8vw;
-        }
-    }
-
-    .scroll-effect {
-        color: black;
+        padding: 1.7rem 2rem 1.7rem 2rem;
+        height: 20rem;
     }
 }
 
