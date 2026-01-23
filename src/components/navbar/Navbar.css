@@ -5,7 +5,7 @@
   align-items: end;
   color: white;
   padding: 0 4rem;
-  height: 14vh;
+  height: 5rem;
 }
 .navbar .aycpdeveloper-logo {
   height: 2.4rem;
@@ -54,7 +54,7 @@
 @media (max-width: 429px) {
   .navbar {
     padding: 0 1.5rem;
-    height: 10vh;
+    height: 4rem;
   }
   .navbar .aycpdeveloper-logo {
     height: 2.1rem;
@@ -65,7 +65,7 @@
     width: 5.6rem;
   }
   .navbar .contact-me-container .contact-me {
-    font-size: 0.78rem;
+    font-size: 0.8rem;
   }
   .navbar .contact-me-container .div1 {
     width: 5.6rem;
