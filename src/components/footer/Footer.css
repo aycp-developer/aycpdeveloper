@@ -140,14 +140,17 @@
   }
   .footer .div3 .content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 9.7rem;
   }
   .footer .div3 .content .recommended-resources-container {
     justify-content: center;
     border-top-left-radius: 1.4rem;
     border-bottom-left-radius: 1.4rem;
-    height: 100%;
-    width: 28%;
+    margin-bottom: 0.7rem;
+    height: 24%;
   }
   .footer .div3 .content .recommended-resources-container .aycpdeveloper-logo {
     position: relative;
@@ -173,7 +176,5 @@
     border-top-right-radius: 1.4rem;
     border-bottom-right-radius: 1.4rem;
     margin-left: 0;
-    height: 100%;
-    width: 77%;
   }
 }/*# sourceMappingURL=Footer.css.map */

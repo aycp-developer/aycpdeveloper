@@ -154,15 +154,16 @@
             width: 94%;
 
             .content {
-                display: flex;
+                @include styles.center;
+                flex-direction: column;
                 height: 9.7rem;
 
                 .recommended-resources-container {
                     justify-content: center;
                     border-top-left-radius: 1.4rem;
                     border-bottom-left-radius: 1.4rem;
-                    height: 100%;
-                    width: 28%;
+                    margin-bottom: 0.7rem;
+                    height: 24%;
 
                     .aycpdeveloper-logo {
                         position: relative;
@@ -191,8 +192,6 @@
                     border-top-right-radius: 1.4rem;
                     border-bottom-right-radius: 1.4rem;
                     margin-left: 0;
-                    height: 100%;
-                    width: 77%;
                 }
             }
         }
