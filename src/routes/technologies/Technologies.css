@@ -21,9 +21,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 6rem;
-  height: 100vh;
-  width: 100vw;
+  padding: 5rem 8rem 6rem 8rem;
+  height: 28rem;
 }
 .technologies .knowledge-subtitle {
   color: white;
@@ -34,45 +33,42 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.3rem;
-  margin: 1.4rem 0;
+  margin: 1.5rem 0;
 }
 .technologies .tech-stack-names-paragraph {
   text-align: center;
   color: white;
   font-size: 1.8rem;
   margin: 0;
-  padding-bottom: 1.4rem;
-  height: 15.4%;
-  width: 78%;
+  margin-bottom: 1.5rem;
 }
 .technologies .tech-stack {
-  background-color: cadetblue;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 1rem;
+  grid-column-gap: 0.5rem;
   padding: 0;
-  height: 37%;
-  width: 78%;
+  height: 14.8rem;
+  width: 100%;
 }
 .technologies .tech-stack .icon {
   color: white;
   font-size: 4.5rem;
 }
 .technologies .tech-stack .bash {
-  font-size: 4.5rem;
+  font-size: 6rem;
 }
 .technologies .tech-stack .express {
-  font-size: 5rem;
+  font-size: 7rem;
 }
 .technologies .tech-stack .github {
-  font-size: 4.5rem;
+  font-size: 6rem;
 }
 
 @media (max-width: 429px) {
   .technologies {
-    padding-bottom: 0;
-    height: 32rem;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    height: 24rem;
   }
   .technologies .knowledge-subtitle {
     font-size: 0.8rem;
@@ -81,17 +77,14 @@
     font-size: 1.7rem;
   }
   .technologies .tech-stack-names-paragraph {
-    font-size: 1.3rem;
-    height: 5rem;
-    width: 92vw;
+    font-size: 1.2rem;
   }
   .technologies .tech-stack {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 0;
     grid-row-gap: 0;
-    height: 13.4rem;
-    width: 92vw;
+    height: 12.1rem;
   }
   .technologies .tech-stack .svg-icon {
     height: 3.2rem;
@@ -110,13 +103,12 @@
     font-size: 3.4rem;
   }
 }
-@media (max-width: 377px) {
+@media (max-width: 387px) {
   .technologies .technologies-title {
     font-size: 1.6rem;
   }
   .technologies .tech-stack-names-paragraph {
-    font-size: 1.2rem;
-    height: 5.6rem;
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 369px) {
@@ -124,7 +116,6 @@
     font-size: 1.5rem;
   }
   .technologies .tech-stack-names-paragraph {
-    font-size: 1.1rem;
-    height: 4rem;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=Technologies.css.map */
