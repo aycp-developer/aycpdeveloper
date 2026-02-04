@@ -11,7 +11,7 @@
   position: relative;
   z-index: 2;
   height: 30%;
-  width: 95%;
+  width: 94%;
 }
 .footer .div3 .content {
   /* Glassmorphism card effect */
@@ -22,7 +22,7 @@
   position: absolute;
   letter-spacing: 0.4px;
   border-radius: 1.4rem;
-  height: 14rem;
+  height: 16.5rem;
   width: 100%;
 }
 .footer .div3 .content .recommended-resources-container {
@@ -37,21 +37,20 @@
   position: absolute;
   top: 14%;
   left: 4.5%;
-  height: 2rem;
-  width: 5rem;
+  height: 2.4rem;
+  width: 6.2rem;
 }
 .footer .div3 .content .recommended-resources-container .recommended-pages {
-  margin-right: 4.5rem;
+  margin-right: 3.6rem;
   height: 84%;
 }
 .footer .div3 .content .recommended-resources-container .recommended-pages h2 {
   color: white;
-  font-size: 0.76rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
 .footer .div3 .content .recommended-resources-container .recommended-pages ul {
-  color: chocolate;
   margin: 0;
   padding: 0;
   height: 85%;
@@ -64,20 +63,19 @@
 .footer .div3 .content .recommended-resources-container .recommended-pages ul li a {
   text-decoration: none;
   color: white;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
 }
 .footer .div3 .content .recommended-resources-container .recommended-channels {
-  margin-right: 4.5rem;
+  margin-right: 3.6rem;
   height: 84%;
 }
 .footer .div3 .content .recommended-resources-container .recommended-channels h2 {
   color: white;
-  font-size: 0.76rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
 .footer .div3 .content .recommended-resources-container .recommended-channels ul {
-  color: chocolate;
   margin: 0;
   padding: 0;
   height: 85%;
@@ -90,20 +88,19 @@
 .footer .div3 .content .recommended-resources-container .recommended-channels ul li a {
   text-decoration: none;
   color: white;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
 }
 .footer .div3 .content .recommended-resources-container .recommended-bootcamps {
-  margin-right: 4.5rem;
+  margin-right: 3.6rem;
   height: 84%;
 }
 .footer .div3 .content .recommended-resources-container .recommended-bootcamps h2 {
   color: white;
-  font-size: 0.76rem;
+  font-size: 0.9rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
 .footer .div3 .content .recommended-resources-container .recommended-bootcamps ul {
-  color: chocolate;
   margin: 0;
   padding: 0;
   height: 85%;
@@ -116,12 +113,12 @@
 .footer .div3 .content .recommended-resources-container .recommended-bootcamps ul li a {
   text-decoration: none;
   color: white;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
 }
 .footer .div3 .content .copyright {
   color: white;
-  font-size: 0.76rem;
-  margin: 0 0 0 2.7rem;
+  font-size: 0.9rem;
+  margin: 0 0 0 3.2rem;
 }
 .footer .div4 {
   position: relative;
@@ -157,6 +154,8 @@
     position: relative;
     top: 0;
     left: 0;
+    height: 2.1rem;
+    width: 5.6rem;
   }
   .footer .div3 .content .recommended-resources-container .recommended-pages {
     display: none;

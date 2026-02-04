@@ -1,19 +1,18 @@
 @use "../../sass/styles";
 
 @mixin recommended-config {
-    margin-right: 4.5rem;
+    margin-right: 3.6rem;
     height: 84%;
 }
 
 @mixin h2-config {
     color: white;
-    font-size: 0.76rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin: 1rem 0 0.6rem 0;
 }
 
 @mixin ul-config {
-    color: chocolate;
     margin: 0;
     padding: 0;
     height: 85%;
@@ -28,7 +27,7 @@
 @mixin a-config {
     text-decoration: none;
     color: white;
-    font-size: 0.76rem;
+    font-size: 0.8rem;
 }
 
 .footer {
@@ -42,13 +41,13 @@
         position: relative;
         z-index: 2;
         height: 30%;
-        width: 95%;
+        width: 94%;
 
         .content {
             @include styles.glassmorphism-card-effect;
             letter-spacing: 0.4px;
             border-radius: 1.4rem;
-            height: 14rem;
+            height: 16.5rem;
             width: 100%;
 
             .recommended-resources-container {
@@ -61,8 +60,8 @@
                     position: absolute;
                     top: 14%;
                     left: 4.5%;
-                    height: 2rem;
-                    width: 5rem;
+                    height: 2.4rem;
+                    width: 6.2rem;
                 }
 
                 .recommended-pages {
@@ -128,8 +127,8 @@
 
             .copyright {
                 color: white;
-                font-size: 0.76rem;
-                margin: 0 0 0 2.7rem;
+                font-size: 0.9rem;
+                margin: 0 0 0 3.2rem;
             }
         }
     }
@@ -170,6 +169,8 @@
                         position: relative;
                         top: 0;
                         left: 0;
+                        height: 2.1rem;
+                        width: 5.6rem;
                     }
 
                     .recommended-pages {
