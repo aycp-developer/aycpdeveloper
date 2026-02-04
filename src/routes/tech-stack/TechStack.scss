@@ -4,7 +4,7 @@
     transition: all 0.3s;
     border-radius: 0.8rem;
     height: 99%;
-    width: 78.5%;
+    width: 78%;
 }
 
 @mixin mobile-image-config {
@@ -37,7 +37,6 @@
         color: white;
         font-size: 1.9rem;
         margin: 0 0 1.5rem 0;
-        height: 12%;
     }
 
     .desktop-tech-stack-images {
@@ -62,8 +61,8 @@
 
 @media (max-width: 429px) {
     .tech-stack {
-        padding-bottom: 0;
-        height: 26rem;
+        padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+        height: 23rem;
 
         .fullstack-subtitle {
             font-size: 0.8rem;
@@ -74,9 +73,8 @@
         }
 
         .tech-stack-paragraph {
-            font-size: 1.3rem;
-            height: 4.5rem;
-            width: 92vw;
+            font-size: 1.2rem;
+            width: 100%;
         }
 
         .desktop-tech-stack-images {
@@ -86,8 +84,8 @@
         .mobile-tech-stack-images {
             display: block;
             position: relative;
-            height: 11.3rem;
-            width: 87vw;
+            height: 48%;
+            width: 100%;
 
             .frontend {
                 @include mobile-image-config;
@@ -100,21 +98,14 @@
     }
 }
 
-@media (max-width: 377px) {
+@media (max-width: 387px) {
     .tech-stack {
         .tech-stack-title {
             font-size: 1.6rem;
         }
 
         .tech-stack-paragraph {
-            font-size: 1.2rem;
-            height: 4.5rem;
-            width: 92vw;
-        }
-
-        .mobile-tech-stack-images {
-            height: 10.3rem;
-            width: 87vw;
+            font-size: 1.1rem;
         }
     }
 }
@@ -126,23 +117,7 @@
         }
 
         .tech-stack-paragraph {
-            font-size: 1.1rem;
-            height: 4.5rem;
-            width: 92vw;
-        }
-
-        .mobile-tech-stack-images {
-            height: 9.9rem;
-            width: 86.8vw;
+            font-size: 1rem;
         }
     }
-}
-
-@media (max-width: 361px) {
-    .tech-stack {
-        .mobile-tech-stack-images {
-            height: 9.5rem;
-            width: 86.7vw;
-        }
-    }
-}
+}   

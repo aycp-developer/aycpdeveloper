@@ -40,7 +40,6 @@
   color: white;
   font-size: 1.9rem;
   margin: 0 0 1.5rem 0;
-  height: 12%;
 }
 .tech-stack .desktop-tech-stack-images {
   display: flex;
@@ -52,13 +51,13 @@
   transition: all 0.3s;
   border-radius: 0.8rem;
   height: 99%;
-  width: 78.5%;
+  width: 78%;
 }
 .tech-stack .desktop-tech-stack-images .backend {
   transition: all 0.3s;
   border-radius: 0.8rem;
   height: 99%;
-  width: 78.5%;
+  width: 78%;
 }
 .tech-stack .mobile-tech-stack-images {
   display: none;
@@ -66,8 +65,8 @@
 
 @media (max-width: 429px) {
   .tech-stack {
-    padding-bottom: 0;
-    height: 26rem;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    height: 23rem;
   }
   .tech-stack .fullstack-subtitle {
     font-size: 0.8rem;
@@ -76,9 +75,8 @@
     font-size: 1.7rem;
   }
   .tech-stack .tech-stack-paragraph {
-    font-size: 1.3rem;
-    height: 4.5rem;
-    width: 92vw;
+    font-size: 1.2rem;
+    width: 100%;
   }
   .tech-stack .desktop-tech-stack-images {
     display: none;
@@ -86,8 +84,8 @@
   .tech-stack .mobile-tech-stack-images {
     display: block;
     position: relative;
-    height: 11.3rem;
-    width: 87vw;
+    height: 48%;
+    width: 100%;
   }
   .tech-stack .mobile-tech-stack-images .frontend {
     transition: all 0.3s;
@@ -102,18 +100,12 @@
     width: 85.95%;
   }
 }
-@media (max-width: 377px) {
+@media (max-width: 387px) {
   .tech-stack .tech-stack-title {
     font-size: 1.6rem;
   }
   .tech-stack .tech-stack-paragraph {
-    font-size: 1.2rem;
-    height: 4.5rem;
-    width: 92vw;
-  }
-  .tech-stack .mobile-tech-stack-images {
-    height: 10.3rem;
-    width: 87vw;
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 369px) {
@@ -121,18 +113,6 @@
     font-size: 1.5rem;
   }
   .tech-stack .tech-stack-paragraph {
-    font-size: 1.1rem;
-    height: 4.5rem;
-    width: 92vw;
-  }
-  .tech-stack .mobile-tech-stack-images {
-    height: 9.9rem;
-    width: 86.8vw;
-  }
-}
-@media (max-width: 361px) {
-  .tech-stack .mobile-tech-stack-images {
-    height: 9.5rem;
-    width: 86.7vw;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=TechStack.css.map */
