@@ -1,7 +1,6 @@
 @use '../../sass/styles';
 
 .who-am-i {
-    @include styles.background;
     @include styles.center;
     flex-direction: column;
     padding: 5rem 8rem 5rem 8rem;

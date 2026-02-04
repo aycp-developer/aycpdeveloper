@@ -1,7 +1,6 @@
 @use "../../sass/styles";
 
 .technologies {
-    @include styles.background;
     @include styles.center;
     flex-direction: column;
     padding: 5rem 8rem 6rem 8rem;
