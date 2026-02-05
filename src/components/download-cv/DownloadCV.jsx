@@ -10,7 +10,7 @@ const DownloadCV = () => {
     const buttonsState = context.buttonsState.buttonsState;
 
     const downloadCv = () => {
-        saveAs(cvImage, 'aycpdeveloper-cv.png');
+        saveAs(cvImage, 'aycpdeveloper-cv.jpg');
     };
 
     return (
