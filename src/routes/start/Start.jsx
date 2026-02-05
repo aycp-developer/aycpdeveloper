@@ -36,8 +36,8 @@ const Start = () => {
                     </span>
                 </div>
                 <div className='buttons-container'>
-                    <ViewCV />
-                    <GetToKnowMe />
+                    <ViewCV height='30rem' width='17rem' />
+                    <GetToKnowMe height='25rem' width='17rem' />
                     <DownloadCV />
                 </div>
             </div>

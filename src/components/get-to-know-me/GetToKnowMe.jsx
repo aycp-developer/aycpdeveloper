@@ -1,10 +1,11 @@
 import React, { useContext, useState } from 'react';
+import PropTypes from 'prop-types';
 import './GetToKnowMe.css';
 import { ButtonsContext, Button, Image } from '../../exports/exports';
 import { profilePicture } from '../../assets/images';
 import { X } from 'react-bootstrap-icons';
 
-const GetToKnowMe = () => {
+const GetToKnowMe = ({ height, width }) => {
 
     const context = useContext(ButtonsContext);
     const buttonsState = context.buttonsState.buttonsState;
@@ -45,7 +46,11 @@ const GetToKnowMe = () => {
             />
             {(profilePictureWindow) &&
                 (<div className='profile-picture-window-container'>
-                    <Image image={profilePicture} alt='AYCP Developer' />
+                    <Image
+                        image={profilePicture}
+                        style={{ height, width }}
+                        alt='AYCP Developer'
+                    />
                     <div className='x-icon-container'>
                         <X
                             onClick={hideProfilePicture}
@@ -57,6 +62,11 @@ const GetToKnowMe = () => {
                 </div>)}
         </div>
     );
+};
+
+GetToKnowMe.propTypes = {
+    height: PropTypes.string.isRequired,
+    width: PropTypes.string.isRequired
 };
 
 export default GetToKnowMe;

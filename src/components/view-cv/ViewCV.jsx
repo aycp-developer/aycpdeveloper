@@ -1,10 +1,11 @@
 import React, { useContext, useState } from 'react';
+import PropTypes from 'prop-types';
 import './ViewCV.css';
 import { ButtonsContext, Button, Image } from '../../exports/exports';
 import { cvImage } from '../../assets/images';
 import { X, ZoomIn, ZoomOut } from 'react-bootstrap-icons';
 
-const ViewCV = () => {
+const ViewCV = ({ height, width }) => {
 
     const context = useContext(ButtonsContext);
     const buttonsState = context.buttonsState.buttonsState;
@@ -83,7 +84,9 @@ const ViewCV = () => {
                         style={{
                             transform: `scale(${scale})`,
                             marginTop: `${marginTop}vh`,
-                            marginBottom: `${(marginTop === 120) ? 26 : 0}vh`
+                            marginBottom: `${(marginTop === 120) ? 26 : 0}vh`,
+                            height,
+                            width
                         }}
                         alt='AYCP Developer CV'
                     />
@@ -108,6 +111,11 @@ const ViewCV = () => {
         </div>
     );
 
+};
+
+ViewCV.propTypes = {
+    height: PropTypes.string.isRequired,
+    width: PropTypes.string.isRequired
 };
 
 export default ViewCV;
