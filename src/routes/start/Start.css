@@ -50,7 +50,7 @@
 @media (max-width: 429px) {
   .start {
     padding: 3rem 1.5rem 2.5rem 1.5rem;
-    height: 34.5rem;
+    height: 32.5rem;
   }
   .start .titles-container {
     gap: 1rem;
@@ -71,7 +71,9 @@
     width: 85%;
   }
   .start .buttons-container {
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
     height: 40%;
     width: 86%;
   }
@@ -87,8 +89,12 @@
   }
 }
 @media (max-width: 400px) {
+  .start {
+    justify-content: space-around;
+  }
   .start .titles-container {
-    gap: 0;
+    gap: 1.5rem;
+    height: 50%;
   }
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
     font-size: 1.9rem;
@@ -100,9 +106,6 @@
   }
 }
 @media (max-width: 387px) {
-  .start .titles-container {
-    gap: 0;
-  }
   .start .titles-container .get-to-know-me-title-container .get-to-know-me-title {
     font-size: 1.8rem;
     height: 100%;
