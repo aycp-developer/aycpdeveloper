@@ -4,17 +4,12 @@
     height: 100%;
     width: 25%;
 
-    .cv-file-window-container {
+    .cv-image-window-container {
         @include styles.glassmorphism-card-effect;
         @include styles.window-container-config;
         @include styles.center;
         overflow-y: auto;
         gap: 14rem;
-
-        .x-icon-container {
-            @include styles.x-config;
-            @include styles.center;
-        }
 
         .zoom-out-icon-container {
             @include styles.center;
@@ -29,6 +24,11 @@
             height: 4rem;
             width: 4rem;
         }
+
+        .x-icon-container {
+            @include styles.x-config;
+            @include styles.center;
+        }
     }
 }
 
@@ -37,15 +37,9 @@
         height: 24%;
         width: 100%;
 
-        .cv-file-window-container {
+        .cv-image-window-container {
             flex-direction: column-reverse;
-            gap: 2rem;
-
-            .x-icon-container {
-                position: relative;
-                top: 0;
-                right: 0;
-            }
+            gap: 0.5rem;
 
             .zoom-out-icon-container {
                 display: none;
@@ -53,6 +47,12 @@
 
             .zoom-in-icon-container {
                 display: none;
+            }
+
+            .x-icon-container {
+                position: relative;
+                top: 0;
+                right: 0;
             }
         }
     }

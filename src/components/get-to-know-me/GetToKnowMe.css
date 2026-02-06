@@ -36,7 +36,7 @@
   }
   .get-to-know-me .profile-picture-window-container {
     flex-direction: column-reverse;
-    gap: 2rem;
+    gap: 0.5rem;
   }
   .get-to-know-me .profile-picture-window-container .x-icon-container {
     position: relative;

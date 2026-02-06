@@ -70,7 +70,7 @@ const ViewCV = ({ height, width }) => {
             />
             {
                 (cvFileWindow) &&
-                (<div className='cv-file-window-container'>
+                (<div className='cv-image-window-container'>
                     <div className='zoom-out-icon-container'>
                         <ZoomOut
                             onClick={zoomOut}
