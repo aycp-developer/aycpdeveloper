@@ -30,8 +30,9 @@ const Start = () => {
                         <DynamicText
                             strings='Programar está más cerca de ser un arte que una ciencia.'
                             autoStart={true}
-                            loop={false}
-                            delay={40}
+                            loop={true}
+                            delay={60}
+                            deleteSpeed={20}
                         />
                     </span>
                 </div>
