@@ -101,6 +101,22 @@
     }
 }
 
+@media (max-width: 451px) {
+    .technologies {
+        .tech-stack-names-paragraph {
+            font-size: 1.27rem;
+        }
+    }
+}
+
+@media (max-width: 442px) {
+    .technologies {
+        .tech-stack-names-paragraph {
+            font-size: 1.22rem;
+        }
+    }
+}
+
 @media (max-width: 429px) {
     .technologies {
         padding: 2.5rem 1.5rem 2.5rem 1.5rem;
@@ -124,24 +140,24 @@
     }
 }
 
-@media (max-width: 387px) {
+@media (max-width: 406px) {
     .technologies {
-        .technologies-title {
-            font-size: 1.6rem;
+        .tech-stack-names-paragraph {
+            font-size: 1.15rem;
         }
+    }
+}
 
+@media (max-width: 391px) {
+    .technologies {
         .tech-stack-names-paragraph {
             font-size: 1.1rem;
         }
     }
 }
 
-@media (max-width: 369px) {
+@media (max-width: 375px) {
     .technologies {
-        .technologies-title {
-            font-size: 1.5rem;
-        }
-
         .tech-stack-names-paragraph {
             font-size: 1rem;
         }
