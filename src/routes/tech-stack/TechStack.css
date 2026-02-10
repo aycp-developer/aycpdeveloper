@@ -81,6 +81,16 @@
     width: 85.95%;
   }
 }
+@media (max-width: 451px) {
+  .tech-stack .tech-stack-paragraph {
+    font-size: 1.27rem;
+  }
+}
+@media (max-width: 442px) {
+  .tech-stack .tech-stack-paragraph {
+    font-size: 1.22rem;
+  }
+}
 @media (max-width: 429px) {
   .tech-stack {
     padding: 2.5rem 1.5rem 2.5rem 1.5rem;
@@ -96,18 +106,17 @@
     font-size: 1.2rem;
   }
 }
-@media (max-width: 387px) {
-  .tech-stack .tech-stack-title {
-    font-size: 1.6rem;
+@media (max-width: 406px) {
+  .tech-stack .tech-stack-paragraph {
+    font-size: 1.15rem;
   }
+}
+@media (max-width: 391px) {
   .tech-stack .tech-stack-paragraph {
     font-size: 1.1rem;
   }
 }
-@media (max-width: 369px) {
-  .tech-stack .tech-stack-title {
-    font-size: 1.5rem;
-  }
+@media (max-width: 375px) {
   .tech-stack .tech-stack-paragraph {
     font-size: 1rem;
   }
