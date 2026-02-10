@@ -32,9 +32,9 @@
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 475px) {
     .view-cv {
-        height: 24%;
+        height: 25%;
         width: 100%;
 
         .cv-image-window-container {
@@ -58,13 +58,26 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 447px) {
     .view-cv {
-        height: 23.5%;
+        height: 24%;
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 429px) {
+    .view-cv {
+        height: 25%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .view-cv {
+        height: 24%;
+    }
+}
+
+@media (max-width: 350px) {
     .view-cv {
         height: 23%;
     }

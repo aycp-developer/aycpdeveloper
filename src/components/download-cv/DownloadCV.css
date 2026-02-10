@@ -3,18 +3,28 @@
   width: 25%;
 }
 
-@media (max-width: 429px) {
+@media (max-width: 475px) {
+  .download-cv {
+    height: 25%;
+    width: 100%;
+  }
+}
+@media (max-width: 447px) {
   .download-cv {
     height: 24%;
-    width: 100%;
+  }
+}
+@media (max-width: 429px) {
+  .download-cv {
+    height: 25%;
   }
 }
 @media (max-width: 400px) {
   .download-cv {
-    height: 23.5%;
+    height: 24%;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 350px) {
   .download-cv {
     height: 23%;
   }

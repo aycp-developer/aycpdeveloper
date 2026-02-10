@@ -47,26 +47,26 @@
   font-size: 6rem;
 }
 
-@media (max-width: 429px) {
+@media (max-width: 475px) {
   .technologies {
-    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
-    height: 24rem;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    height: 26rem;
   }
   .technologies .knowledge-subtitle {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .technologies .technologies-title {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   .technologies .tech-stack-names-paragraph {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .technologies .tech-stack {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 0;
     grid-row-gap: 0;
-    height: 12.1rem;
+    height: 12.5rem;
   }
   .technologies .tech-stack .svg-icon {
     height: 3.2rem;
@@ -83,6 +83,24 @@
   }
   .technologies .tech-stack .github {
     font-size: 3.4rem;
+  }
+}
+@media (max-width: 429px) {
+  .technologies {
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    height: 24rem;
+  }
+  .technologies .knowledge-subtitle {
+    font-size: 0.8rem;
+  }
+  .technologies .technologies-title {
+    font-size: 1.7rem;
+  }
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.2rem;
+  }
+  .technologies .tech-stack {
+    height: 12.1rem;
   }
 }
 @media (max-width: 387px) {

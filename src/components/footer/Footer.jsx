@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer'>
             <div className='div3'>
                 <div className='content'>
-                    <div className='recommended-resources-container'>
+                    <div className='logo-recommended-resources-container'>
                         <img className='aycpdeveloper-logo' src={aycpdeveloperLogo} alt='AYCP DEVELOPER' />
                         <div className='recommended-pages'>
                             <h2>Páginas Recomendadas</h2>
@@ -77,7 +77,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <p className='copyright'>
-                        Copyright © 2025 Developed by Alexander Yosimar Cervantes Pineda
+                        Copyright © 2026 Developed by Alexander Yosimar Cervantes Pineda
                     </p>
                 </div>
             </div>

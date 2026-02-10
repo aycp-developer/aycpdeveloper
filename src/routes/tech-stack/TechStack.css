@@ -45,20 +45,19 @@
   display: none;
 }
 
-@media (max-width: 429px) {
+@media (max-width: 475px) {
   .tech-stack {
-    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
-    height: 23rem;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    height: 25rem;
   }
   .tech-stack .fullstack-subtitle {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .tech-stack .tech-stack-title {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   .tech-stack .tech-stack-paragraph {
-    font-size: 1.2rem;
-    width: 100%;
+    font-size: 1.3rem;
   }
   .tech-stack .desktop-tech-stack-images {
     display: none;
@@ -80,6 +79,21 @@
     border-radius: 0.4rem;
     height: 97.79%;
     width: 85.95%;
+  }
+}
+@media (max-width: 429px) {
+  .tech-stack {
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    height: 23rem;
+  }
+  .tech-stack .fullstack-subtitle {
+    font-size: 0.8rem;
+  }
+  .tech-stack .tech-stack-title {
+    font-size: 1.7rem;
+  }
+  .tech-stack .tech-stack-paragraph {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 387px) {

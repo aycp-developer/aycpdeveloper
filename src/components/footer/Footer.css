@@ -24,7 +24,7 @@
   height: 16.5rem;
   width: 100%;
 }
-.footer .div3 .content .recommended-resources-container {
+.footer .div3 .content .logo-recommended-resources-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,84 +32,84 @@
   height: 80%;
   width: 100%;
 }
-.footer .div3 .content .recommended-resources-container .aycpdeveloper-logo {
+.footer .div3 .content .logo-recommended-resources-container .aycpdeveloper-logo {
   position: absolute;
   top: 14%;
   left: 4.5%;
   height: 2.4rem;
   width: 6.2rem;
 }
-.footer .div3 .content .recommended-resources-container .recommended-pages {
+.footer .div3 .content .logo-recommended-resources-container .recommended-pages {
   margin-right: 3.6rem;
   height: 84%;
 }
-.footer .div3 .content .recommended-resources-container .recommended-pages h2 {
+.footer .div3 .content .logo-recommended-resources-container .recommended-pages h2 {
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
-.footer .div3 .content .recommended-resources-container .recommended-pages ul {
+.footer .div3 .content .logo-recommended-resources-container .recommended-pages ul {
   margin: 0;
   padding: 0;
   height: 85%;
 }
-.footer .div3 .content .recommended-resources-container .recommended-pages ul li {
+.footer .div3 .content .logo-recommended-resources-container .recommended-pages ul li {
   list-style: none;
   opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
-.footer .div3 .content .recommended-resources-container .recommended-pages ul li a {
+.footer .div3 .content .logo-recommended-resources-container .recommended-pages ul li a {
   text-decoration: none;
   color: white;
   font-size: 0.8rem;
 }
-.footer .div3 .content .recommended-resources-container .recommended-channels {
+.footer .div3 .content .logo-recommended-resources-container .recommended-channels {
   margin-right: 3.6rem;
   height: 84%;
 }
-.footer .div3 .content .recommended-resources-container .recommended-channels h2 {
+.footer .div3 .content .logo-recommended-resources-container .recommended-channels h2 {
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
-.footer .div3 .content .recommended-resources-container .recommended-channels ul {
+.footer .div3 .content .logo-recommended-resources-container .recommended-channels ul {
   margin: 0;
   padding: 0;
   height: 85%;
 }
-.footer .div3 .content .recommended-resources-container .recommended-channels ul li {
+.footer .div3 .content .logo-recommended-resources-container .recommended-channels ul li {
   list-style: none;
   opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
-.footer .div3 .content .recommended-resources-container .recommended-channels ul li a {
+.footer .div3 .content .logo-recommended-resources-container .recommended-channels ul li a {
   text-decoration: none;
   color: white;
   font-size: 0.8rem;
 }
-.footer .div3 .content .recommended-resources-container .recommended-bootcamps {
+.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps {
   margin-right: 3.6rem;
   height: 84%;
 }
-.footer .div3 .content .recommended-resources-container .recommended-bootcamps h2 {
+.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps h2 {
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
-.footer .div3 .content .recommended-resources-container .recommended-bootcamps ul {
+.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps ul {
   margin: 0;
   padding: 0;
   height: 85%;
 }
-.footer .div3 .content .recommended-resources-container .recommended-bootcamps ul li {
+.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps ul li {
   list-style: none;
   opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
-.footer .div3 .content .recommended-resources-container .recommended-bootcamps ul li a {
+.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps ul li a {
   text-decoration: none;
   color: white;
   font-size: 0.8rem;
@@ -131,9 +131,9 @@
   width: 100%;
 }
 
-@media (max-width: 429px) {
+@media (max-width: 475px) {
   .footer {
-    height: 10.5rem;
+    height: 12.5rem;
   }
   .footer .div3 {
     width: 94%;
@@ -143,29 +143,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 9.7rem;
+    height: 11.7rem;
   }
-  .footer .div3 .content .recommended-resources-container {
+  .footer .div3 .content .logo-recommended-resources-container {
     justify-content: center;
     border-top-left-radius: 1.4rem;
     border-bottom-left-radius: 1.4rem;
     margin-bottom: 0.7rem;
     height: 24%;
   }
-  .footer .div3 .content .recommended-resources-container .aycpdeveloper-logo {
+  .footer .div3 .content .logo-recommended-resources-container .aycpdeveloper-logo {
     position: relative;
     top: 0;
     left: 0;
-    height: 2.1rem;
-    width: 5.6rem;
+    height: 2.3rem;
+    width: 5.8rem;
   }
-  .footer .div3 .content .recommended-resources-container .recommended-pages {
+  .footer .div3 .content .logo-recommended-resources-container .recommended-pages {
     display: none;
   }
-  .footer .div3 .content .recommended-resources-container .recommended-channels {
+  .footer .div3 .content .logo-recommended-resources-container .recommended-channels {
     display: none;
   }
-  .footer .div3 .content .recommended-resources-container .recommended-bootcamps {
+  .footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps {
     display: none;
   }
   .footer .div3 .content .copyright {
@@ -176,5 +176,17 @@
     border-top-right-radius: 1.4rem;
     border-bottom-right-radius: 1.4rem;
     margin-left: 0;
+  }
+}
+@media (max-width: 429px) {
+  .footer {
+    height: 10.5rem;
+  }
+  .footer .div3 .content {
+    height: 9.7rem;
+  }
+  .footer .div3 .content .logo-recommended-resources-container .aycpdeveloper-logo {
+    height: 2.1rem;
+    width: 5.6rem;
   }
 }/*# sourceMappingURL=Footer.css.map */

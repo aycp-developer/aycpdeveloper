@@ -49,7 +49,7 @@
             height: 16.5rem;
             width: 100%;
 
-            .recommended-resources-container {
+            .logo-recommended-resources-container {
                 @include styles.center;
                 justify-content: end;
                 height: 80%;
@@ -146,9 +146,9 @@
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 475px) {
     .footer {
-        height: 10.5rem;
+        height: 12.5rem;
 
         .div3 {
             width: 94%;
@@ -156,9 +156,9 @@
             .content {
                 @include styles.center;
                 flex-direction: column;
-                height: 9.7rem;
+                height: 11.7rem;
 
-                .recommended-resources-container {
+                .logo-recommended-resources-container {
                     justify-content: center;
                     border-top-left-radius: 1.4rem;
                     border-bottom-left-radius: 1.4rem;
@@ -169,8 +169,8 @@
                         position: relative;
                         top: 0;
                         left: 0;
-                        height: 2.1rem;
-                        width: 5.6rem;
+                        height: 2.3rem;
+                        width: 5.8rem;
                     }
 
                     .recommended-pages {
@@ -192,6 +192,25 @@
                     border-top-right-radius: 1.4rem;
                     border-bottom-right-radius: 1.4rem;
                     margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 429px) {
+    .footer {
+        height: 10.5rem;
+
+        .div3 {
+            .content {
+                height: 9.7rem;
+
+                .logo-recommended-resources-container {
+                    .aycpdeveloper-logo {
+                        height: 2.1rem;
+                        width: 5.6rem;
+                    }
                 }
             }
         }

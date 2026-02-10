@@ -68,6 +68,23 @@
     transform: translateY(-400%);
   }
 }
+@media (max-width: 475px) {
+  .word-changer {
+    height: 38%;
+    width: 100%;
+  }
+  .word-changer .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .word-changer .loader .div2 .words .word {
+    padding-bottom: -0.1vh;
+    padding-left: 0;
+    padding-bottom: 1rem;
+  }
+}
 @media (max-width: 429px) {
   .word-changer {
     height: 38%;

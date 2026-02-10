@@ -29,9 +29,9 @@
   align-items: center;
 }
 
-@media (max-width: 429px) {
+@media (max-width: 475px) {
   .get-to-know-me {
-    height: 24%;
+    height: 25%;
     width: 100%;
   }
   .get-to-know-me .profile-picture-window-container {
@@ -44,12 +44,23 @@
     right: 0;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 447px) {
   .get-to-know-me {
-    height: 23.5%;
+    height: 24%;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 429px) {
+  .get-to-know-me {
+    height: 25%;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .get-to-know-me {
+    height: 24%;
+  }
+}
+@media (max-width: 350px) {
   .get-to-know-me {
     height: 23%;
   }
