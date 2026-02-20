@@ -36,8 +36,8 @@
   position: absolute;
   top: 14%;
   left: 4.5%;
-  height: 2.4rem;
-  width: 6.2rem;
+  height: 3rem;
+  width: 8.2rem;
 }
 .footer .div3 .content .logo-recommended-resources-container .recommended-pages {
   margin-right: 3.6rem;
@@ -45,7 +45,7 @@
 }
 .footer .div3 .content .logo-recommended-resources-container .recommended-pages h2 {
   color: white;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
@@ -70,7 +70,7 @@
 }
 .footer .div3 .content .logo-recommended-resources-container .recommended-channels h2 {
   color: white;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
@@ -95,7 +95,7 @@
 }
 .footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps h2 {
   color: white;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
@@ -116,8 +116,8 @@
 }
 .footer .div3 .content .copyright {
   color: white;
-  font-size: 0.9rem;
-  margin: 0 0 0 3.2rem;
+  font-size: 1.1rem;
+  margin: 0 0 0 3.5rem;
 }
 .footer .div4 {
   position: relative;
@@ -157,7 +157,7 @@
     top: 0;
     left: 0;
     height: 2.3rem;
-    width: 5.8rem;
+    width: 6.2rem;
   }
   .footer .div3 .content .logo-recommended-resources-container .recommended-pages {
     display: none;
