@@ -8,8 +8,8 @@
         @include styles.glassmorphism-card-effect;
         @include styles.window-container-config;
         @include styles.center;
+        gap: 17rem;
         overflow-y: auto;
-        gap: 14rem;
 
         .zoom-out-icon-container {
             @include styles.center;

@@ -16,8 +16,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 17rem;
   overflow-y: auto;
-  gap: 14rem;
 }
 .view-cv .cv-image-window-container .zoom-out-icon-container {
   display: flex;
