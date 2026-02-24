@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './TechStack.css';
 import { DynamicText } from '../../exports/exports';
-import { frontend, backend } from '../../assets/images';
+import { frontend, backend } from '../../assets/assets';
 
 const TechStack = () => {
 

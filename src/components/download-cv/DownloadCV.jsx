@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import './DownloadCV.css';
 import { ButtonsContext, Button } from '../../exports/exports';
 import { saveAs } from 'file-saver';
-import { cvImage } from '../../assets/images';
+import { cvImage } from '../../assets/assets';
 
 const DownloadCV = () => {
 

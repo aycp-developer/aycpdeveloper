@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Whatsapp } from '../../exports/exports';
-import { aycpdeveloperLogo } from '../../assets/images';
+import { aycpdeveloperLogo } from '../../assets/assets';
 
 const Navbar = () => {
 

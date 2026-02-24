@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 import './ViewCV.css';
 import { ButtonsContext, Button, Image } from '../../exports/exports';
-import { cvImage } from '../../assets/images';
+import { cvImage } from '../../assets/assets';
 import { X, ZoomIn, ZoomOut } from 'react-bootstrap-icons';
 
 const ViewCV = ({ height, width }) => {

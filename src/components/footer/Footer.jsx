@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { backgroundFooter, aycpdeveloperLogo } from '../../assets/images';
+import { backgroundFooter, aycpdeveloperLogo } from '../../assets/assets';
 
 const Footer = () => {
 

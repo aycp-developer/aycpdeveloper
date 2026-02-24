@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 import './GetToKnowMe.css';
 import { ButtonsContext, Button, Image } from '../../exports/exports';
-import { profilePicture } from '../../assets/images';
+import { profilePicture } from '../../assets/assets';
 import { X } from 'react-bootstrap-icons';
 
 const GetToKnowMe = ({ height, width }) => {
