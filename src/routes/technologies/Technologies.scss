@@ -4,7 +4,6 @@
     @include styles.center;
     flex-direction: column;
     padding: 5rem 8rem 6rem 8rem;
-    height: 28rem;
 
     .knowledge-subtitle {
         color: white;
@@ -56,7 +55,6 @@
 @media (max-width: 475px) {
     .technologies {
         padding: 2.5rem 2rem 2.5rem 2rem;
-        height: 26rem;
 
         .knowledge-subtitle {
             font-size: 0.9rem;
