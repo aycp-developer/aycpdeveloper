@@ -29,7 +29,6 @@
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 0.5rem;
   padding: 0;
-  height: 14.8rem;
   width: 100%;
 }
 .technologies .tech-stack .icon {
@@ -64,7 +63,6 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 0;
     grid-row-gap: 0;
-    height: 12.5rem;
   }
   .technologies .tech-stack .svg-icon {
     height: 3.2rem;
