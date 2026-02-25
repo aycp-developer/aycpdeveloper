@@ -28,7 +28,7 @@ const TechStack = () => {
             <p className='tech-stack-paragraph'>
                 Mi pila tecnológica preferida es {frontendTechStackColorText('Frontend')} con {frontendTechStackColorText('ReactJS')} {frontendTechStackColorText('+')} {frontendTechStackColorText('Javascript')} y {backendTechStackColorText('Backend')} con {backendTechStackColorText('SpringBoot')} {backendTechStackColorText('+')} {backendTechStackColorText('Java')}.
             </p>
-            <div className='desktop-tech-stack-images'>
+            <div className='tech-stack-images'>
                 <img
                     className='frontend'
                     src={frontend}
@@ -48,32 +48,6 @@ const TechStack = () => {
                         opacity: (isImageSelected) ? '1' : '0.5',
                         border: (isImageSelected) ? '2px solid #62AEC2' : '2px solid white',
                         zIndex: (isImageSelected) ? '2' : '1',
-                        left: (isImageSelected) ? '21%' : '21.5%'
-                    }}
-                    onClick={() => setIsImageSelected(true)}
-                />
-            </div>
-            <div className='mobile-tech-stack-images'>
-                <img
-                    className='frontend'
-                    src={frontend}
-                    style={{
-                        position: (!isImageSelected) ? 'absolute' : 'relative',
-                        opacity: (!isImageSelected) ? '1' : '0.5',
-                        border: (!isImageSelected) ? '2px solid #62AEC2' : '2px solid white',
-                        zIndex: (!isImageSelected) ? '2' : '1'
-                    }}
-                    onClick={() => setIsImageSelected(false)}
-                />
-                <img
-                    className='backend'
-                    src={backend}
-                    style={{
-                        position: (isImageSelected) ? 'absolute' : 'relative',
-                        opacity: (isImageSelected) ? '1' : '0.5',
-                        border: (isImageSelected) ? '2px solid #62AEC2' : '2px solid white',
-                        zIndex: (isImageSelected) ? '2' : '1',
-                        left: (isImageSelected) ? '13%' : '13%'
                     }}
                     onClick={() => setIsImageSelected(true)}
                 />

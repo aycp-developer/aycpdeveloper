@@ -8,7 +8,6 @@
 }
 
 @mixin mobile-image-config {
-    transition: all 0.3s;
     border-radius: 0.4rem;
     height: 97.79%;
     width: 85.95%;
@@ -18,7 +17,6 @@
     @include styles.center;
     flex-direction: column;
     padding: 5rem 8rem 5rem 8rem;
-    height: 41.5rem;
 
     .fullstack-subtitle {
         color: white;
@@ -38,10 +36,10 @@
         margin: 0 0 1.5rem 0;
     }
 
-    .desktop-tech-stack-images {
+    .tech-stack-images {
         display: flex;
         position: relative;
-        height: 27rem;
+        height: 24.5rem;
         width: 100%;
 
         .frontend {
@@ -50,18 +48,14 @@
 
         .backend {
             @include desktop-image-config;
+            left: 21.5%;
         }
-    }
-
-    .mobile-tech-stack-images {
-        display: none;
     }
 }
 
 @media (max-width: 475px) {
     .tech-stack {
         padding: 2.5rem 2rem 2.5rem 2rem;
-        height: 25rem;
 
         .fullstack-subtitle {
             font-size: 0.9rem;
@@ -75,14 +69,8 @@
             font-size: 1.3rem;
         }
 
-        .desktop-tech-stack-images {
-            display: none;
-        }
-
-        .mobile-tech-stack-images {
-            display: block;
-            position: relative;
-            height: 48%;
+        .tech-stack-images {
+            height: 12rem;
             width: 100%;
 
             .frontend {
@@ -91,6 +79,7 @@
 
             .backend {
                 @include mobile-image-config;
+                left: 13%;
             }
         }
     }
@@ -101,6 +90,10 @@
         .tech-stack-paragraph {
             font-size: 1.27rem;
         }
+
+        .tech-stack-images {
+            height: 11.5rem;
+        }
     }
 }
 
@@ -108,6 +101,10 @@
     .tech-stack {
         .tech-stack-paragraph {
             font-size: 1.22rem;
+        }
+
+        .tech-stack-images {
+            height: 11rem;
         }
     }
 }
@@ -128,6 +125,10 @@
         .tech-stack-paragraph {
             font-size: 1.2rem;
         }
+
+        .tech-stack-images {
+            height: 10.5rem;
+        }
     }
 }
 
@@ -135,6 +136,10 @@
     .tech-stack {
         .tech-stack-paragraph {
             font-size: 1.15rem;
+        }
+
+        .tech-stack-images {
+            height: 10rem;
         }
     }
 }
@@ -144,6 +149,10 @@
         .tech-stack-paragraph {
             font-size: 1.1rem;
         }
+
+        .tech-stack-images {
+            height: 9.5rem;
+        }
     }
 }
 
@@ -151,6 +160,10 @@
     .tech-stack {
         .tech-stack-paragraph {
             font-size: 1rem;
+        }
+
+        .tech-stack-images {
+            height: 9rem;
         }
     }
 }
