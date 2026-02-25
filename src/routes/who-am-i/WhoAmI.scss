@@ -18,12 +18,11 @@
 
     .who-am-i-paragraph {
         color: var(--gray-color);
-        font-size: 1.66rem;
+        font-size: 1.56rem;
         letter-spacing: 0.28px;
         border: solid 2px white;
         margin: 0;
         padding: 1.7rem 2rem 1.7rem 2rem;
-        height: 20rem;
     }
 }
 
@@ -43,7 +42,6 @@
             @include styles.center;
             font-size: 0.90rem;
             padding: 1rem 1.5rem 1rem 1.5rem;
-            height: 16.75rem;
         }
     }
 
@@ -68,7 +66,6 @@
 @media (max-width: 429px) {
     .who-am-i {
         padding: 2.5rem 1.5rem 2.5rem 1.5rem;
-        height: 24rem;
 
         .get-to-know-me-subtitle {
             font-size: 0.8rem;
