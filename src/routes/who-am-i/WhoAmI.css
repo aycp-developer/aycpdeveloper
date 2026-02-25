@@ -4,7 +4,6 @@
   align-items: center;
   flex-direction: column;
   padding: 5rem 8rem 5rem 8rem;
-  height: 31rem;
 }
 .who-am-i .get-to-know-me-subtitle {
   color: white;
@@ -30,7 +29,6 @@
 @media (max-width: 475px) {
   .who-am-i {
     padding: 2.5rem 2rem 2.5rem 2rem;
-    height: 26rem;
   }
   .who-am-i .get-to-know-me-subtitle {
     font-size: 0.9rem;
