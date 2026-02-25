@@ -5,7 +5,7 @@ import { ButtonsContext, Button, Image } from '../../exports/exports';
 import { profilePicture } from '../../assets/assets';
 import { X } from 'react-bootstrap-icons';
 
-const GetToKnowMe = ({ height, width }) => {
+const GetToKnowMe = ({ imageHeight, imageWidth }) => {
 
     const context = useContext(ButtonsContext);
     const buttonsState = context.buttonsState.buttonsState;
@@ -48,7 +48,7 @@ const GetToKnowMe = ({ height, width }) => {
                 (<div className='profile-picture-window-container'>
                     <Image
                         image={profilePicture}
-                        style={{ height, width }}
+                        style={{ height: imageHeight, width: imageWidth }}
                         alt='AYCP Developer'
                     />
                     <div className='x-icon-container'>
@@ -65,8 +65,8 @@ const GetToKnowMe = ({ height, width }) => {
 };
 
 GetToKnowMe.propTypes = {
-    height: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired
+    imageHeight: PropTypes.string.isRequired,
+    imageWidth: PropTypes.string.isRequired
 };
 
 export default GetToKnowMe;
