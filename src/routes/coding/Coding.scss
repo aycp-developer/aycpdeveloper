@@ -1,0 +1,127 @@
+@use "../../sass/styles";
+
+@mixin video-config {
+    transition: all 0.3s;
+    border-radius: 0.8rem;
+    height: 100%;
+    width: 78%;
+}
+
+.coding {
+    @include styles.center;
+    flex-direction: column;
+    padding: 5rem 8rem 5rem 8rem;
+
+    .focus-subtitle {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .coding-title {
+        @include styles.degrade-blue-text;
+        font-size: 2.3rem;
+        margin: 1.5 rem 0;
+    }
+
+    .coding-paragraph {
+        text-align: center;
+        color: white;
+        font-size: 1.9rem;
+        margin: 0 0 1.5rem 0;
+    }
+
+    .div {
+        position: relative;
+
+        .coding-algorithms-videos {
+            display: flex;
+
+            .coding {
+                @include video-config;
+                padding: 0;
+            }
+
+            .algorithms {
+                @include video-config;
+                left: 21.5%;
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .coding {
+        padding: 2.5rem 2rem 2.5rem 2rem;
+
+        .focus-subtitle {
+            font-size: 0.9rem;
+        }
+
+        .coding-title {
+            font-size: 1.8rem;
+        }
+
+        .coding-paragraph {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media (max-width: 451px) {
+    .coding {
+        .coding-paragraph {
+            font-size: 1.27rem;
+        }
+    }
+}
+
+@media (max-width: 442px) {
+    .coding {
+        .coding-paragraph {
+            font-size: 1.22rem;
+        }
+    }
+}
+
+@media (max-width: 429px) {
+    .coding {
+        padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+        height: 23rem;
+
+        .focus-subtitle {
+            font-size: 0.8rem;
+        }
+
+        .coding-title {
+            font-size: 1.7rem;
+        }
+
+        .coding-paragraph {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 406px) {
+    .coding {
+        .coding-paragraph {
+            font-size: 1.15rem;
+        }
+    }
+}
+
+@media (max-width: 391px) {
+    .coding {
+        .coding-paragraph {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .coding {
+        .coding-paragraph {
+            font-size: 1rem;
+        }
+    }
+}

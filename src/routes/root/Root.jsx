@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Start, WhoAmI, TechStack, Technologies, Footer } from '../../exports/exports';
+import { Navbar, Start, WhoAmI, TechStack, Technologies, Coding, Footer } from '../../exports/exports';
 
 const Root = () => {
 
@@ -9,6 +9,7 @@ const Root = () => {
             <Start />
             <WhoAmI />
             <TechStack />
+            <Coding />
             <Technologies />
             <Footer />
         </div>

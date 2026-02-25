@@ -1,6 +1,7 @@
 import Start from '../routes/start/Start';
 import WhoAmI from '../routes/who-am-i/WhoAmI';
 import TechStack from '../routes/tech-stack/TechStack';
+import Coding from '../routes/coding/Coding';
 import Technologies from '../routes/technologies/Technologies';
 import Navbar from '../components/navbar/Navbar';
 import Whatsapp from '../components/whatsapp/Whatsapp';
@@ -19,6 +20,7 @@ export {
     Start,
     WhoAmI,
     TechStack,
+    Coding,
     Technologies,
     Navbar,
     Whatsapp,
