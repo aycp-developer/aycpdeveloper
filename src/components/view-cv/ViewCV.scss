@@ -1,9 +1,6 @@
 @use '../../sass/styles';
 
 .view-cv {
-    height: 100%;
-    width: 25%;
-
     .cv-image-window-container {
         @include styles.glassmorphism-card-effect;
         @include styles.window-container-config;
@@ -29,56 +26,5 @@
             @include styles.x-config;
             @include styles.center;
         }
-    }
-}
-
-@media (max-width: 475px) {
-    .view-cv {
-        height: 25%;
-        width: 100%;
-
-        .cv-image-window-container {
-            flex-direction: column-reverse;
-            gap: 0.5rem;
-
-            .zoom-out-icon-container {
-                display: none;
-            }
-
-            .zoom-in-icon-container {
-                display: none;
-            }
-
-            .x-icon-container {
-                position: relative;
-                top: 0;
-                right: 0;
-            }
-        }
-    }
-}
-
-@media (max-width: 447px) {
-    .view-cv {
-        height: 24%;
-    }
-}
-
-@media (max-width: 429px) {
-    .view-cv {
-        height: 25%;
-        width: 100%;
-    }
-}
-
-@media (max-width: 400px) {
-    .view-cv {
-        height: 24%;
-    }
-}
-
-@media (max-width: 350px) {
-    .view-cv {
-        height: 23%;
     }
 }
