@@ -28,9 +28,9 @@ const WhoAmI = () => {
                 ¿Quién soy?
             </h2>
             <p className={'who-am-i-paragraph'}>
-                <Quote />
+                <Quote className='quote' />
                 {whoAmIParagraph}
-                <Quote style={{ transform: 'rotate(180deg)' }} />
+                <Quote className='quote' style={{ transform: 'rotate(180deg)' }} />
             </p>
         </div>
     );

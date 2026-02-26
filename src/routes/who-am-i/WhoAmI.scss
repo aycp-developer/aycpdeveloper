@@ -23,6 +23,11 @@
         border: solid 2px white;
         margin: 0;
         padding: 1.7rem 2rem 1.7rem 2rem;
+
+        .quote {
+            height: 2rem;
+            width: 2rem;
+        }
     }
 }
 
@@ -39,9 +44,13 @@
         }
 
         .who-am-i-paragraph {
-            @include styles.center;
             font-size: 0.90rem;
-            padding: 1rem 1.5rem 1rem 1.5rem;
+            padding: 1.2rem 1.5rem;
+
+            .quote {
+                height: 1rem;
+                width: 1rem;
+            }
         }
     }
 
@@ -77,8 +86,6 @@
 
         .who-am-i-paragraph {
             font-size: 0.87rem;
-            padding: 0.7rem 1.2rem 0.7rem 1.2rem;
-            height: 16.2rem;
         }
     }
 
