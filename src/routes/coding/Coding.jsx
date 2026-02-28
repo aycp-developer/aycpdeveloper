@@ -28,7 +28,7 @@ const Coding = () => {
             <p className='coding-paragraph'>
                 Un día normal como programador es {setCodingColorText('codificar')} y escribir {setAlgorithmsColorText('algoritmos')} o en modo inverso.
             </p>
-            <div className='div'>
+            <div className='div3'>
                 <div className='coding-algorithms-videos'>
                     <video
                         className='coding'

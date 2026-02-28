@@ -6,7 +6,7 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-            <div className='div3'>
+            <div className='div4'>
                 <div className='content'>
                     <div className='logo-recommended-resources-container'>
                         <img className='aycpdeveloper-logo' src={aycpdeveloperLogo} alt='AYCP DEVELOPER' />
@@ -81,7 +81,7 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
-            <div className='div4'>
+            <div className='div5'>
                 <img className='background-footer' src={backgroundFooter} alt="background footer" />
             </div>
         </div>

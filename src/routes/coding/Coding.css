@@ -22,20 +22,20 @@
   font-size: 1.9rem;
   margin: 0 0 1.5rem 0;
 }
-.coding .div {
+.coding .div3 {
   position: relative;
 }
-.coding .div .coding-algorithms-videos {
+.coding .div3 .coding-algorithms-videos {
   display: flex;
 }
-.coding .div .coding-algorithms-videos .coding {
+.coding .div3 .coding-algorithms-videos .coding {
   transition: all 0.3s;
   border-radius: 0.8rem;
   height: 100%;
   width: 78%;
   padding: 0;
 }
-.coding .div .coding-algorithms-videos .algorithms {
+.coding .div3 .coding-algorithms-videos .algorithms {
   transition: all 0.3s;
   border-radius: 0.8rem;
   height: 100%;

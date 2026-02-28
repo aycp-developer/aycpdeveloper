@@ -7,13 +7,13 @@
   height: 50vh;
   width: 100vw;
 }
-.footer .div3 {
+.footer .div4 {
   position: relative;
   z-index: 2;
   height: 30%;
   width: 94%;
 }
-.footer .div3 .content {
+.footer .div4 .content {
   /* Glassmorphism card effect */
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
@@ -25,7 +25,7 @@
   height: 16rem;
   width: 100%;
 }
-.footer .div3 .content .logo-recommended-resources-container {
+.footer .div4 .content .logo-recommended-resources-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,100 +33,100 @@
   height: 80%;
   width: 100%;
 }
-.footer .div3 .content .logo-recommended-resources-container .aycpdeveloper-logo {
+.footer .div4 .content .logo-recommended-resources-container .aycpdeveloper-logo {
   position: absolute;
   top: 14%;
   left: 4.5%;
   height: 3rem;
   width: 8.2rem;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-pages {
+.footer .div4 .content .logo-recommended-resources-container .recommended-pages {
   margin-right: 3.1rem;
   height: 84%;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-pages h2 {
+.footer .div4 .content .logo-recommended-resources-container .recommended-pages h2 {
   color: white;
   font-size: 1rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-pages ul {
+.footer .div4 .content .logo-recommended-resources-container .recommended-pages ul {
   margin: 0;
   padding: 0;
   height: 85%;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-pages ul li {
+.footer .div4 .content .logo-recommended-resources-container .recommended-pages ul li {
   list-style: none;
   opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-pages ul li a {
+.footer .div4 .content .logo-recommended-resources-container .recommended-pages ul li a {
   text-decoration: none;
   color: white;
   font-size: 0.8rem;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-channels {
+.footer .div4 .content .logo-recommended-resources-container .recommended-channels {
   margin-right: 3.1rem;
   height: 84%;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-channels h2 {
+.footer .div4 .content .logo-recommended-resources-container .recommended-channels h2 {
   color: white;
   font-size: 1rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-channels ul {
+.footer .div4 .content .logo-recommended-resources-container .recommended-channels ul {
   margin: 0;
   padding: 0;
   height: 85%;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-channels ul li {
+.footer .div4 .content .logo-recommended-resources-container .recommended-channels ul li {
   list-style: none;
   opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-channels ul li a {
+.footer .div4 .content .logo-recommended-resources-container .recommended-channels ul li a {
   text-decoration: none;
   color: white;
   font-size: 0.8rem;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps {
+.footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps {
   margin-right: 3.1rem;
   height: 84%;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps h2 {
+.footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps h2 {
   color: white;
   font-size: 1rem;
   font-weight: bold;
   margin: 1rem 0 0.6rem 0;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps ul {
+.footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps ul {
   margin: 0;
   padding: 0;
   height: 85%;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps ul li {
+.footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps ul li {
   list-style: none;
   opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
-.footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps ul li a {
+.footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps ul li a {
   text-decoration: none;
   color: white;
   font-size: 0.8rem;
 }
-.footer .div3 .content .copyright {
+.footer .div4 .content .copyright {
   color: white;
   font-size: 1rem;
   margin: 0 0 0 3.5rem;
 }
-.footer .div4 {
+.footer .div5 {
   position: relative;
   z-index: 1;
   height: 70%;
   width: 100%;
 }
-.footer .div4 .background-footer {
+.footer .div5 .background-footer {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -137,40 +137,40 @@
     padding-top: 2.5rem;
     height: 12.5rem;
   }
-  .footer .div3 {
+  .footer .div4 {
     width: 87%;
   }
-  .footer .div3 .content {
+  .footer .div4 .content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 10.6rem;
   }
-  .footer .div3 .content .logo-recommended-resources-container {
+  .footer .div4 .content .logo-recommended-resources-container {
     justify-content: center;
     border-top-left-radius: 1.4rem;
     border-bottom-left-radius: 1.4rem;
     margin-bottom: 0.7rem;
     height: 24%;
   }
-  .footer .div3 .content .logo-recommended-resources-container .aycpdeveloper-logo {
+  .footer .div4 .content .logo-recommended-resources-container .aycpdeveloper-logo {
     position: relative;
     top: 0;
     left: 0;
     height: 2.3rem;
     width: 6.2rem;
   }
-  .footer .div3 .content .logo-recommended-resources-container .recommended-pages {
+  .footer .div4 .content .logo-recommended-resources-container .recommended-pages {
     display: none;
   }
-  .footer .div3 .content .logo-recommended-resources-container .recommended-channels {
+  .footer .div4 .content .logo-recommended-resources-container .recommended-channels {
     display: none;
   }
-  .footer .div3 .content .logo-recommended-resources-container .recommended-bootcamps {
+  .footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps {
     display: none;
   }
-  .footer .div3 .content .copyright {
+  .footer .div4 .content .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,10 +183,10 @@
   .footer {
     height: 10.5rem;
   }
-  .footer .div3 .content {
+  .footer .div4 .content {
     height: 8.9rem;
   }
-  .footer .div3 .content .logo-recommended-resources-container .aycpdeveloper-logo {
+  .footer .div4 .content .logo-recommended-resources-container .aycpdeveloper-logo {
     height: 2.1rem;
     width: 5.6rem;
   }
