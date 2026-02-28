@@ -46,7 +46,7 @@
             @include styles.glassmorphism-card-effect;
             letter-spacing: 0.4px;
             border-radius: 1.4rem;
-            height: 16.5rem;
+            height: 16rem;
             width: 100%;
 
             .logo-recommended-resources-container {
@@ -151,12 +151,12 @@
         height: 12.5rem;
 
         .div3 {
-            width: 94%;
+            width: 87%;
 
             .content {
                 @include styles.center;
                 flex-direction: column;
-                height: 11.7rem;
+                height: 10.6rem;
 
                 .logo-recommended-resources-container {
                     justify-content: center;
@@ -189,9 +189,8 @@
                 .copyright {
                     @include styles.center;
                     text-align: center;
-                    border-top-right-radius: 1.4rem;
-                    border-bottom-right-radius: 1.4rem;
                     margin-left: 0;
+                    width: 90%;
                 }
             }
         }
@@ -204,7 +203,7 @@
 
         .div3 {
             .content {
-                height: 9.7rem;
+                height: 8.9rem;
 
                 .logo-recommended-resources-container {
                     .aycpdeveloper-logo {

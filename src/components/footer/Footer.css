@@ -21,7 +21,7 @@
   position: absolute;
   letter-spacing: 0.4px;
   border-radius: 1.4rem;
-  height: 16.5rem;
+  height: 16rem;
   width: 100%;
 }
 .footer .div3 .content .logo-recommended-resources-container {
@@ -136,14 +136,14 @@
     height: 12.5rem;
   }
   .footer .div3 {
-    width: 94%;
+    width: 87%;
   }
   .footer .div3 .content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 11.7rem;
+    height: 10.6rem;
   }
   .footer .div3 .content .logo-recommended-resources-container {
     justify-content: center;
@@ -173,9 +173,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-top-right-radius: 1.4rem;
-    border-bottom-right-radius: 1.4rem;
     margin-left: 0;
+    width: 90%;
   }
 }
 @media (max-width: 429px) {
@@ -183,7 +182,7 @@
     height: 10.5rem;
   }
   .footer .div3 .content {
-    height: 9.7rem;
+    height: 8.9rem;
   }
   .footer .div3 .content .logo-recommended-resources-container .aycpdeveloper-logo {
     height: 2.1rem;
