@@ -33,6 +33,7 @@
 .footer {
     @include styles.center;
     flex-direction: column;
+    padding-top: 4rem;
     height: 50vh;
     width: 100vw;
 
@@ -148,6 +149,7 @@
 
 @media (max-width: 475px) {
     .footer {
+        padding-top: 2.5rem;
         height: 12.5rem;
 
         .div3 {
