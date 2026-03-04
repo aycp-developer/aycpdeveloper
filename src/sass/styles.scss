@@ -62,11 +62,19 @@
     width: 99.9%;
 }
 
-@mixin x-config {
+@mixin x-config-desktop {
     position: absolute;
     top: 2rem;
     right: 2rem;
     border-radius: 0.4rem;
     height: 4.5rem;
     width: 4.5rem;
+}
+
+@mixin x-config-mobile {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 3.5rem;
+    width: 3.5rem;
 }
