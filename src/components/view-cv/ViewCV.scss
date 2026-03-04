@@ -23,8 +23,29 @@
         }
 
         .x-icon-container {
-            @include styles.x-config;
+            @include styles.x-config-desktop;
             @include styles.center;
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .view-cv {
+        .cv-image-window-container {
+            flex-direction: column-reverse;
+            gap: 0;
+
+            .zoom-out-icon-container {
+                display: none;
+            }
+
+            .zoom-in-icon-container {
+                display: none;
+            }
+
+            .x-icon-container {
+                @include styles.x-config-mobile;
+            }
         }
     }
 }

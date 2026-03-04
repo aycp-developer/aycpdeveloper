@@ -23,4 +23,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 475px) {
+  .get-to-know-me .profile-picture-window-container {
+    flex-direction: column-reverse;
+  }
+  .get-to-know-me .profile-picture-window-container .x-icon-container {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
 }/*# sourceMappingURL=GetToKnowMe.css.map */

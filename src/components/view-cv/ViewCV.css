@@ -41,4 +41,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 475px) {
+  .view-cv .cv-image-window-container {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .view-cv .cv-image-window-container .zoom-out-icon-container {
+    display: none;
+  }
+  .view-cv .cv-image-window-container .zoom-in-icon-container {
+    display: none;
+  }
+  .view-cv .cv-image-window-container .x-icon-container {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
 }/*# sourceMappingURL=ViewCV.css.map */

@@ -7,8 +7,20 @@
         @include styles.center;
 
         .x-icon-container {
-            @include styles.x-config;
+            @include styles.x-config-desktop;
             @include styles.center;
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .get-to-know-me {
+        .profile-picture-window-container {
+            flex-direction: column-reverse;
+ 
+            .x-icon-container {
+                @include styles.x-config-mobile;
+            }
         }
     }
 }
