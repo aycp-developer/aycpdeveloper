@@ -51,7 +51,6 @@ src/
 - **typewriter-effect** - Efecto de máquina de escribir
 - **react-bootstrap-icons** - Iconos de Bootstrap
 - **file-saver** - Descarga de archivos
-- **react-whatsapp** - Integración con WhatsApp
 
 ### Testing
 - **Vitest** - Framework de testing
