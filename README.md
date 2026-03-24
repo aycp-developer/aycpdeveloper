@@ -20,7 +20,9 @@ src/
 │   ├── footer/               # Footer con recursos recomendados
 │   ├── get-to-know-me/       # Modal de foto de perfil
 │   ├── image/                # Componente de imagen con lazy loading
-│   ├── navbar/               # Barra de navegación
+│   ├── loading/              # Componente de carga con spinner
+│   ├── navbar/               # Barra de navegación fija
+│   ├── scroll-to-top/        # Botón para volver al inicio
 │   ├── title/                # Título con estilo degradado
 │   ├── view-cv/              # Visualizador del CV con zoom
 │   ├── whatsapp/             # Enlace a WhatsApp
@@ -28,7 +30,7 @@ src/
 ├── exports/                   # Archivo de exportaciones centralizado
 │   └── exports.js           # Exporta todos los componentes
 ├── routes/                    # Páginas/Rutas de la aplicación
-│   ├── root/                 # Layout principal
+│   ├── root/                 # Layout principal con lazy loading
 │   ├── start/                # Página de inicio
 │   ├── who-am-i/             # Sección "¿Quién soy?"
 │   ├── tech-stack/           # Sección de Tech Stack
@@ -74,6 +76,12 @@ npm test
 
 # Linting
 npm run lint
+
+# Verificar errores de lint
+npm run lint:check
+
+# Auto-corrección de errores de lint
+npm run lint:fix
 ```
 
 ## Componentes Principales
@@ -87,13 +95,15 @@ npm run lint
 | `Image` | Imagen con lazy loading y estado de carga |
 | `DynamicText` | Texto animado tipo máquina de escribir |
 | `WordChanger` | Animación cíclica de palabras |
-| `Navbar` | Barra de navegación con menú de contacto |
+| `Navbar` | Barra de navegación fija con efecto glassmorphism |
 | `Whatsapp` | Enlace directo a WhatsApp |
 | `Footer` | Footer con recursos recomendados |
 | `DownloadCV` | Botón para descargar CV |
 | `ViewCV` | Modal para visualizar CV con zoom |
 | `GetToKnowMe` | Modal para ver foto de perfil |
 | `ButtonsContext` | Context API para visibilidad de botones |
+| `ScrollToTop` | Botón para volver al inicio de la página |
+| `Loading` | Spinner de carga para lazy loading |
 
 ### Routes
 
@@ -118,6 +128,10 @@ npm run lint
 - Sección de recursos recomendados (MDN, GeeksforGeeks, W3Schools, etc.)
 - Canales de YouTube recomendados (OpenBootcamp, freeCodeCamp, TheNetNinja)
 - Bootcamps recomendados (UltraCamp, freeCodeCamp, Fireship)
+- **Lazy loading** de rutas para optimizar rendimiento
+- **Navbar fijo** con efecto glassmorphism al hacer scroll
+- **Botón ScrollToTop** para navegación rápida
+- Linting con ESLint (semi-required)
 
 ## Desarrollo
 
