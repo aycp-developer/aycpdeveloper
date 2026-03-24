@@ -15,6 +15,7 @@ import GetToKnowMe from '../components/get-to-know-me/GetToKnowMe';
 import ButtonsContext from '../components/buttons-context/ButtonsContext';
 import DynamicText from '../components/dynamic-text/DynamicText';
 import Footer from '../components/footer/Footer';
+import Loading from '../components/loading/Loading';
 
 export {
     Start,
@@ -33,5 +34,6 @@ export {
     GetToKnowMe,
     ButtonsContext,
     DynamicText,
-    Footer
-};
+    Footer,
+    Loading
+}

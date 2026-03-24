@@ -9,7 +9,8 @@ vi.mock('../src/exports/exports', () => ({
     TechStack: () => <div>TechStack</div>,
     Coding: () => <div>Coding</div>,
     Technologies: () => <div>Technologies</div>,
-    Footer: () => <div>Footer</div>
+    Footer: () => <div>Footer</div>,
+    Loading: () => <div>Loading</div>
 }));
 
 describe('Root', () => {

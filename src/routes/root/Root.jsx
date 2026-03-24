@@ -1,17 +1,26 @@
-import React from 'react';
-import { Navbar, Start, WhoAmI, TechStack, Technologies, Coding, Footer } from '../../exports/exports';
+import React, { lazy, Suspense } from 'react';
+import { Navbar, Loading } from '../../exports/exports';
+
+const Start = lazy(() => import('../start/Start'));
+const WhoAmI = lazy(() => import('../who-am-i/WhoAmI'));
+const TechStack = lazy(() => import('../tech-stack/TechStack'));
+const Technologies = lazy(() => import('../technologies/Technologies'));
+const Coding = lazy(() => import('../coding/Coding'));
+const Footer = lazy(() => import('../../components/footer/Footer'));
 
 const Root = () => {
 
     return (
         <div className='root'>
             <Navbar />
-            <Start />
-            <WhoAmI />
-            <TechStack />
-            <Coding />
-            <Technologies />
-            <Footer />
+            <Suspense fallback={<Loading />}>
+                <Start />
+                <WhoAmI />
+                <TechStack />
+                <Coding />
+                <Technologies />
+                <Footer />
+            </Suspense>
         </div>
     );
 
