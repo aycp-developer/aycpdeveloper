@@ -12,8 +12,6 @@ const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
-        let lastScrollY = window.scrollY;
-
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
 
@@ -22,8 +20,6 @@ const Navbar = () => {
             } else {
                 setIsScrolled(false);
             }
-
-            lastScrollY = currentScrollY;
         };
 
         window.addEventListener('scroll', handleScroll);
