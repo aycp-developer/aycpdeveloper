@@ -1,10 +1,24 @@
 .navbar {
   display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-between;
-  align-items: end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
   color: white;
   padding: 0 4rem;
-  height: 5rem;
+  transition: all 0.3s ease;
+  height: 6rem;
+}
+.navbar.scrolled {
+  /* Glassmorphism card effect */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(230, 235, 242, 0.125);
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .navbar .aycpdeveloper-logo {
   height: 3rem;
@@ -40,7 +54,6 @@
   -webkit-backdrop-filter: blur(10px) saturate(180%);
   background-color: rgba(230, 235, 242, 0.125);
   border: 1px solid rgba(255, 255, 255, 0.125);
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +90,7 @@
 @media (max-width: 429px) {
   .navbar {
     padding: 0 1.5rem;
-    height: 4.5rem;
+    height: 5rem;
   }
   .navbar .aycpdeveloper-logo {
     height: 2.1rem;

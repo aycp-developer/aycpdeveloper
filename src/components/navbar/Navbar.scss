@@ -1,12 +1,22 @@
 @use '../../sass/styles';
 
 .navbar {
-    display: flex;
+    @include styles.center;
     justify-content: space-between;
-    align-items: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     color: white;
     padding: 0 4rem;
-    height: 5rem;
+    transition: all 0.3s ease;
+    height: 6rem;
+
+
+    &.scrolled {
+        @include styles.glassmorphism-card-effect;
+    }
 
     .aycpdeveloper-logo {
         height: 3rem;
@@ -83,7 +93,7 @@
 @media (max-width: 429px) {
     .navbar {
         padding: 0 1.5rem;
-        height: 4.5rem;
+        height: 5rem;
 
         .aycpdeveloper-logo {
             height: 2.1rem;

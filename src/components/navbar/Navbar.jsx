@@ -1,11 +1,34 @@
-import React, { useState } from 'react';
-import './Navbar.css';
-import { Whatsapp } from '../../exports/exports';
+import React, { useContext, useState, useEffect } from 'react';
+import './Navbar.scss';
+import { ButtonsContext, Whatsapp } from '../../exports/exports';
 import { aycpdeveloperLogo } from '../../assets/assets';
 
 const Navbar = () => {
 
+    const context = useContext(ButtonsContext);
+    const { buttonsState } = context.buttonsState;
+
     const [isShowButtons, isSetIsShowButtons] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        let lastScrollY = window.scrollY;
+
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+
+            if (currentScrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+
+            lastScrollY = currentScrollY;
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const handleShowButtons = () => {
         if (!isShowButtons) {
@@ -16,7 +39,10 @@ const Navbar = () => {
     };
 
     return (
-        <div className='navbar'>
+        <div
+            className={`navbar ${isScrolled ? 'scrolled' : ''}`}
+            style={{ display: buttonsState ? 'none' : 'flex' }}
+        >
             <img className='aycpdeveloper-logo' src={aycpdeveloperLogo} alt='AYCP DEVELOPER' />
             <div className='contact-me-container'>
                 <span onClick={handleShowButtons} className='contact-me'>
