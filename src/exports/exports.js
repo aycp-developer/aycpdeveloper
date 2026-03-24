@@ -16,6 +16,7 @@ import ButtonsContext from '../components/buttons-context/ButtonsContext';
 import DynamicText from '../components/dynamic-text/DynamicText';
 import Footer from '../components/footer/Footer';
 import Loading from '../components/loading/Loading';
+import ScrollToTop from '../components/scroll-to-top/ScrollToTop';
 
 export {
     Start,
@@ -35,5 +36,6 @@ export {
     ButtonsContext,
     DynamicText,
     Footer,
-    Loading
-}
+    Loading,
+    ScrollToTop
+};

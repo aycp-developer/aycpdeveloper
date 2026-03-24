@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Navbar, Loading } from '../../exports/exports';
+import { Navbar, Loading, ScrollToTop } from '../../exports/exports';
 
 const Start = lazy(() => import('../start/Start'));
 const WhoAmI = lazy(() => import('../who-am-i/WhoAmI'));
@@ -21,6 +21,7 @@ const Root = () => {
                 <Technologies />
                 <Footer />
             </Suspense>
+            <ScrollToTop />
         </div>
     );
 

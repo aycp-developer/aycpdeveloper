@@ -10,7 +10,8 @@ vi.mock('../src/exports/exports', () => ({
     Coding: () => <div>Coding</div>,
     Technologies: () => <div>Technologies</div>,
     Footer: () => <div>Footer</div>,
-    Loading: () => <div>Loading</div>
+    Loading: () => <div>Loading</div>,
+    ScrollToTop: () => <div>ScrollToTop</div>
 }));
 
 describe('Root', () => {
@@ -52,5 +53,10 @@ describe('Root', () => {
     it('renders Footer component', () => {
         render(<Root />);
         expect(screen.getByText('Footer')).toBeInTheDocument();
+    });
+
+    it('renders ScrollToTop component', () => {
+        render(<Root />);
+        expect(screen.getByText('ScrollToTop')).toBeInTheDocument();
     });
 });
