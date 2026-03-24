@@ -1,5 +1,5 @@
-import React, { lazy, Suspense } from 'react';
-import { Navbar, Loading, ScrollToTop } from '../../exports/exports';
+import React, { lazy, Suspense, useReducer } from 'react';
+import { ButtonsContext, Navbar, Loading, ScrollToTop } from '../../exports/exports';
 
 const Start = lazy(() => import('../start/Start'));
 const WhoAmI = lazy(() => import('../who-am-i/WhoAmI'));
@@ -10,19 +10,33 @@ const Footer = lazy(() => import('../../components/footer/Footer'));
 
 const Root = () => {
 
+    const initialButtonsState = { buttonsState: false };
+
+    const buttons = (state, action) => {
+        switch (action.type) {
+            case 'hide': return { buttonsState: action.payload.buttons };
+            case 'show': return { buttonsState: action.payload.buttons };
+            default: return state;
+        }
+    };
+
+    const [buttonsState, buttonsDispatch] = useReducer(buttons, initialButtonsState);
+
     return (
-        <div className='root'>
-            <Navbar />
-            <Suspense fallback={<Loading />}>
-                <Start />
-                <WhoAmI />
-                <TechStack />
-                <Coding />
-                <Technologies />
-                <Footer />
-            </Suspense>
-            <ScrollToTop />
-        </div>
+        <ButtonsContext.Provider value={{ buttonsState, buttonsDispatch }}>
+            <div className='root'>
+                <Navbar />
+                <Suspense fallback={<Loading />}>
+                    <Start />
+                    <WhoAmI />
+                    <TechStack />
+                    <Coding />
+                    <Technologies />
+                    <Footer />
+                </Suspense>
+                <ScrollToTop />
+            </div>
+        </ButtonsContext.Provider>
     );
 
 };
