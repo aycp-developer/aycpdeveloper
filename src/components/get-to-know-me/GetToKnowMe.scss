@@ -5,6 +5,7 @@
         @include styles.glassmorphism-card-effect;
         @include styles.window-container-config;
         @include styles.center;
+        position: absolute;
 
         .x-icon-container {
             @include styles.x-config-desktop;
@@ -17,7 +18,7 @@
     .get-to-know-me {
         .profile-picture-window-container {
             flex-direction: column-reverse;
- 
+
             .x-icon-container {
                 @include styles.x-config-mobile;
             }

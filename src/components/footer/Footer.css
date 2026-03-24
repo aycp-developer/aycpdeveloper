@@ -19,7 +19,6 @@
   -webkit-backdrop-filter: blur(10px) saturate(180%);
   background-color: rgba(230, 235, 242, 0.125);
   border: 1px solid rgba(255, 255, 255, 0.125);
-  position: absolute;
   letter-spacing: 0.4px;
   border-radius: 1.4rem;
   height: 16rem;
