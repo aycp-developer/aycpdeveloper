@@ -8,7 +8,7 @@ import { X, ZoomIn, ZoomOut } from 'react-bootstrap-icons';
 const ViewCV = ({ imageHeight, imageWidth }) => {
 
     const context = useContext(ButtonsContext);
-    const buttonsState = context.buttonsState.buttonsState;
+    const { buttonsState } = context.buttonsState;
     const buttonsDispatch = context.buttonsDispatch;
 
     const [cvFileWindow, setCvFileWindow] = useState(false);
