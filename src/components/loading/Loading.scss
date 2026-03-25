@@ -2,8 +2,8 @@
 
 .loading {
     @include styles.center;
-    min-height: 50vh;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 
     .spinner {
         animation: spin 1s linear infinite;
