@@ -8,7 +8,7 @@ const Navbar = () => {
     const context = useContext(ButtonsContext);
     const { buttonsState } = context.buttonsState;
 
-    const [isShowButtons, isSetIsShowButtons] = useState(false);
+    const [isShowButton, isSetIsShowButton] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
@@ -26,11 +26,11 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const handleShowButtons = () => {
-        if (!isShowButtons) {
-            isSetIsShowButtons(true);
+    const handleShowButton = () => {
+        if (!isShowButton) {
+            isSetIsShowButton(true);
         } else {
-            isSetIsShowButtons(false);
+            isSetIsShowButton(false);
         }
     };
 
@@ -41,11 +41,11 @@ const Navbar = () => {
         >
             <img className='aycpdeveloper-logo' src={aycpdeveloperLogo} alt='AYCP DEVELOPER' />
             <div className='contact-me-container'>
-                <span onClick={handleShowButtons} className='contact-me'>
+                <span onClick={handleShowButton} className='contact-me'>
                     CONTÁCTAME
                 </span>
                 <div className='div1'>
-                    {isShowButtons && (
+                    {isShowButton && (
                         <div className='whatsapp-button'>
                             <Whatsapp />
                         </div>

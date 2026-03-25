@@ -59,6 +59,7 @@
   align-items: center;
   border-radius: 0.4rem;
   z-index: 2;
+  position: absolute;
   height: 6rem;
   width: 100%;
 }
