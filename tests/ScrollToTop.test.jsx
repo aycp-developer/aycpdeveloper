@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../src/components/scroll-to-top/ScrollToTop';
 
 describe('ScrollToTop', () => {
     it('renders the scroll to top button', () => {

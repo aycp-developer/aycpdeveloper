@@ -1,18 +1,17 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, act, waitFor } from '@testing-library/react';
+import React from 'react';
 import Root from '../src/routes/root/Root';
 
-vi.mock('../src/exports/exports', () => ({
-    Navbar: () => <div>Navbar</div>,
-    Start: () => <div>Start</div>,
-    WhoAmI: () => <div>WhoAmI</div>,
-    TechStack: () => <div>TechStack</div>,
-    Coding: () => <div>Coding</div>,
-    Technologies: () => <div>Technologies</div>,
-    Footer: () => <div>Footer</div>,
-    Loading: () => <div>Loading</div>,
-    ScrollToTop: () => <div>ScrollToTop</div>
-}));
+vi.mock('../src/exports/exports', async (importOriginal) => {
+    const actual = await importOriginal();
+    return {
+        ...actual,
+        Navbar: () => <div data-testid="navbar-mock">Navbar</div>,
+        Loading: () => <div data-testid="loading-mock">Loading</div>,
+        ScrollToTop: () => <div data-testid="scroll-to-top-mock">ScrollToTop</div>
+    };
+});
 
 describe('Root', () => {
     it('renders root container', () => {
@@ -20,43 +19,61 @@ describe('Root', () => {
         expect(document.querySelector('.root')).toBeInTheDocument();
     });
 
-    it('renders Navbar component', () => {
+    it('renders Navbar component', async () => {
         render(<Root />);
-        expect(screen.getByText('Navbar')).toBeInTheDocument();
+        await act(async () => {
+            await new Promise(resolve => setTimeout(resolve, 100));
+        });
+        expect(screen.getByTestId('navbar-mock')).toBeInTheDocument();
     });
 
-    it('renders Start component', () => {
+    it('renders Start component', async () => {
         render(<Root />);
-        expect(screen.getByText('Start')).toBeInTheDocument();
+        await waitFor(() => {
+            expect(document.querySelector('.start')).toBeInTheDocument();
+        });
     });
 
-    it('renders WhoAmI component', () => {
+    it('renders WhoAmI component', async () => {
         render(<Root />);
-        expect(screen.getByText('WhoAmI')).toBeInTheDocument();
+        await waitFor(() => {
+            expect(document.querySelector('.who-am-i')).toBeInTheDocument();
+        });
     });
 
-    it('renders TechStack component', () => {
+    it('renders TechStack component', async () => {
         render(<Root />);
-        expect(screen.getByText('TechStack')).toBeInTheDocument();
+        await waitFor(() => {
+            expect(document.querySelector('.tech-stack')).toBeInTheDocument();
+        });
     });
 
-    it('renders Coding component', () => {
+    it('renders Coding component', async () => {
         render(<Root />);
-        expect(screen.getByText('Coding')).toBeInTheDocument();
+        await waitFor(() => {
+            expect(document.querySelector('.coding')).toBeInTheDocument();
+        });
     });
 
-    it('renders Technologies component', () => {
+    it('renders Technologies component', async () => {
         render(<Root />);
-        expect(screen.getByText('Technologies')).toBeInTheDocument();
+        await waitFor(() => {
+            expect(document.querySelector('.technologies')).toBeInTheDocument();
+        });
     });
 
-    it('renders Footer component', () => {
+    it('renders Footer component', async () => {
         render(<Root />);
-        expect(screen.getByText('Footer')).toBeInTheDocument();
+        await waitFor(() => {
+            expect(document.querySelector('.footer')).toBeInTheDocument();
+        });
     });
 
-    it('renders ScrollToTop component', () => {
+    it('renders ScrollToTop component', async () => {
         render(<Root />);
-        expect(screen.getByText('ScrollToTop')).toBeInTheDocument();
+        await act(async () => {
+            await new Promise(resolve => setTimeout(resolve, 100));
+        });
+        expect(screen.getByTestId('scroll-to-top-mock')).toBeInTheDocument();
     });
 });
