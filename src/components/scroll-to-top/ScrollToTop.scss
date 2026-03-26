@@ -1,4 +1,5 @@
 @use '../../sass/styles';
+@use '../../sass/styles' as *;
 
 .scroll-to-top {
     position: fixed;
@@ -20,12 +21,12 @@
 
 .scroll-to-top-button {
     @include styles.center;
-    background: linear-gradient(135deg, #62AEC2 0%, #1A5465 100%);
+    background: linear-gradient(135deg, $sky-color 0%, $ocean-color 56%);
     color: white;
     cursor: pointer;
     border: none;
     border-radius: 50%;
-    box-shadow: 0 17px 50px #1A5465;
+    box-shadow: 0 0 20px $sky-color;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     height: 48px;
     width: 48px;
@@ -39,7 +40,7 @@
 
     &:hover {
         transform: scale(1.1);
-        box-shadow: 0 6px 20px #1A5465;
+        box-shadow: 0 0 30px $sky-color;
 
         .arrow-up {
             transform: translateY(-2px);

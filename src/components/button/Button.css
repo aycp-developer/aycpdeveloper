@@ -27,7 +27,7 @@
   border-radius: 16px;
   bottom: 0;
   left: 0;
-  background: radial-gradient(circle 60px at 0% 100%, #3fe9ff, #154d5e, transparent);
+  background: radial-gradient(circle 60px at 0% 100%, #62AEC2, #1A5465, transparent);
   box-shadow: -10px 10px 30px rgba(0, 81, 255, 0.1764705882);
 }
 .button:hover {

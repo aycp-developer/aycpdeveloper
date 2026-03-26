@@ -1,4 +1,5 @@
 @use "../../sass/styles";
+@use "../../sass/styles" as *;
 
 .word-changer {
     height: 32%;
@@ -42,7 +43,7 @@
                     display: block;
                     text-align: start;
                     padding-left: 1.8vw;
-                    color: #62AEC2;
+                    color: $sky-color;
                     animation: spin_4991 4s infinite;
 
                     .end-exclamation {

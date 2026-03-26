@@ -1,3 +1,6 @@
+$sky-color: #62AEC2;
+$ocean-color: #1A5465;
+
 @mixin background {
     --s: 78px;
 
@@ -41,7 +44,7 @@
 }
 
 @mixin degrade-blue-text {
-    background-image: linear-gradient(to right, #1A5465, #62AEC2);
+    background-image: linear-gradient(to right, $ocean-color, $sky-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
