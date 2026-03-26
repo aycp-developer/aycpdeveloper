@@ -17,7 +17,7 @@
     }
 
     .who-am-i-paragraph {
-        color: var(--gray-color);
+        @include styles.gray-text;
         font-size: 1.56rem;
         letter-spacing: 0.28px;
         border: solid 2px white;

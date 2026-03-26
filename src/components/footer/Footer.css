@@ -56,12 +56,12 @@
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-pages ul li {
   list-style: none;
-  opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-pages ul li a {
-  text-decoration: none;
   color: white;
+  opacity: 0.7;
+  text-decoration: none;
   font-size: 0.8rem;
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-channels {
@@ -81,12 +81,12 @@
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-channels ul li {
   list-style: none;
-  opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-channels ul li a {
-  text-decoration: none;
   color: white;
+  opacity: 0.7;
+  text-decoration: none;
   font-size: 0.8rem;
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps {
@@ -106,12 +106,12 @@
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps ul li {
   list-style: none;
-  opacity: 0.7;
   margin: 0 0 0.2rem 0;
 }
 .footer .div4 .content .logo-recommended-resources-container .recommended-bootcamps ul li a {
-  text-decoration: none;
   color: white;
+  opacity: 0.7;
+  text-decoration: none;
   font-size: 0.8rem;
 }
 .footer .div4 .content .copyright {
