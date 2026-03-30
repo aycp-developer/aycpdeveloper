@@ -1,0 +1,52 @@
+@use '../../sass/styles';
+
+.view-cv {
+    .cv-image-window-container {
+        @include styles.glassmorphism-card-effect;
+        @include styles.window-container-config;
+        @include styles.center;
+        gap: 17rem;
+        overflow-y: auto;
+        position: absolute;
+
+        .zoom-out-icon-container {
+            @include styles.center;
+            border-radius: 0.4rem;
+            height: 4rem;
+            width: 4rem;
+        }
+
+        .zoom-in-icon-container {
+            @include styles.center;
+            border-radius: 0.4rem;
+            height: 4rem;
+            width: 4rem;
+        }
+
+        .x-icon-container {
+            @include styles.x-config-desktop;
+            @include styles.center;
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .view-cv {
+        .cv-image-window-container {
+            flex-direction: column-reverse;
+            gap: 0;
+
+            .zoom-out-icon-container {
+                display: none;
+            }
+
+            .zoom-in-icon-container {
+                display: none;
+            }
+
+            .x-icon-container {
+                @include styles.x-config-mobile;
+            }
+        }
+    }
+}

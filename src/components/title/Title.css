@@ -1,0 +1,16 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.title .degrade-blue-title {
+  background-image: linear-gradient(to right, #1A5465, #62AEC2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.7vw;
+}
+.title .icon {
+  height: 7vh;
+  width: 3.4vw;
+}/*# sourceMappingURL=Title.css.map */

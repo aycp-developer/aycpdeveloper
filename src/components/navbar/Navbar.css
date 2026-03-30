@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  color: white;
+  padding: 0 4rem;
+  transition: all 0.3s ease;
+  height: 6rem;
+}
+.navbar.scrolled {
+  /* Glassmorphism card effect */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(230, 235, 242, 0.125);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.navbar .aycpdeveloper-logo {
+  height: 3rem;
+  width: 8.2rem;
+}
+.navbar .aycpdeveloper-logo:hover {
+  cursor: pointer;
+}
+.navbar .contact-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 3rem;
+  width: 8.2rem;
+}
+.navbar .contact-me-container .contact-me {
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.navbar .contact-me-container .contact-me:hover {
+  cursor: pointer;
+}
+.navbar .contact-me-container .div1 {
+  position: relative;
+  width: 8.2rem;
+}
+.navbar .contact-me-container .div1 .whatsapp-button {
+  /* Glassmorphism card effect */
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(230, 235, 242, 0.125);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  z-index: 2;
+  position: absolute;
+  height: 6rem;
+  width: 100%;
+}
+
+@media (max-width: 475px) {
+  .navbar {
+    padding: 0 2rem;
+    height: 5rem;
+  }
+  .navbar .aycpdeveloper-logo {
+    height: 2.3rem;
+    width: 6.2rem;
+  }
+  .navbar .contact-me-container {
+    height: 2.3rem;
+    width: 6.2rem;
+  }
+  .navbar .contact-me-container .contact-me {
+    font-size: 0.9rem;
+  }
+  .navbar .contact-me-container .div1 {
+    width: 6.2rem;
+  }
+  .navbar .contact-me-container .div1 .whatsapp-button {
+    height: 6.2rem;
+    width: 100%;
+  }
+}
+@media (max-width: 429px) {
+  .navbar {
+    padding: 0 1.5rem;
+    height: 5rem;
+  }
+  .navbar .aycpdeveloper-logo {
+    height: 2.1rem;
+    width: 5.6rem;
+  }
+  .navbar .contact-me-container {
+    height: 2.1rem;
+    width: 5.6rem;
+  }
+  .navbar .contact-me-container .contact-me {
+    font-size: 0.8rem;
+  }
+  .navbar .contact-me-container .div1 {
+    width: 5.6rem;
+  }
+  .navbar .contact-me-container .div1 .whatsapp-button {
+    height: 5.6rem;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
