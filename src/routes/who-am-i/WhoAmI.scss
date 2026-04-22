@@ -1,0 +1,140 @@
+@use '../../sass/styles';
+
+.who-am-i {
+    @include styles.center;
+    flex-direction: column;
+    padding: 5rem 8rem 5rem 8rem;
+
+    .get-to-know-me-subtitle {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .who-am-i-title {
+        @include styles.degrade-blue-text;
+        font-size: 2.3rem;
+        margin: 1.5rem 0;
+    }
+
+    .who-am-i-paragraph {
+        @include styles.gray-text;
+        font-size: 1.56rem;
+        letter-spacing: 0.28px;
+        border: solid 2px white;
+        margin: 0;
+        padding: 1.7rem 2rem 1.7rem 2rem;
+
+        .quote {
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .who-am-i {
+        padding: 2.5rem 2rem 2.5rem 2rem;
+
+        .get-to-know-me-subtitle {
+            font-size: 0.9rem;
+        }
+
+        .who-am-i-title {
+            font-size: 1.8rem;
+        }
+
+        .who-am-i-paragraph {
+            font-size: 0.90rem;
+            padding: 1.2rem 1.5rem;
+
+            .quote {
+                height: 1rem;
+                width: 1rem;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 459px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.88rem;
+        }
+    }
+}
+
+@media (max-width: 452px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.875rem;
+        }
+    }
+}
+
+@media (max-width: 429px) {
+    .who-am-i {
+        padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+
+        .get-to-know-me-subtitle {
+            font-size: 0.8rem;
+        }
+
+        .who-am-i-title {
+            font-size: 1.7rem;
+        }
+
+        .who-am-i-paragraph {
+            font-size: 0.87rem;
+        }
+    }
+
+}
+
+@media (max-width: 423px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.86rem;
+        }
+    }
+}
+
+@media (max-width: 419px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.85rem;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.839rem;
+        }
+    }
+}
+
+@media (max-width: 387px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.815rem;
+        }
+    }
+}
+
+@media (max-width: 377px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 367px) {
+    .who-am-i {
+        .who-am-i-paragraph {
+            font-size: 0.792rem;
+        }
+    }
+}

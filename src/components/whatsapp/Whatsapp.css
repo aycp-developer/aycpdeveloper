@@ -1,0 +1,19 @@
+.whatsapp {
+  background-color: rgb(67, 205, 102);
+  color: white;
+  border-style: none;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  height: 3rem;
+  width: 3rem;
+}
+.whatsapp:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 429px) {
+  .whatsapp {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+}/*# sourceMappingURL=Whatsapp.css.map */

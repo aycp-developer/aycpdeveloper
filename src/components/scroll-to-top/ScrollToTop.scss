@@ -1,0 +1,65 @@
+@use '../../sass/styles';
+@use '../../sass/styles' as *;
+
+.scroll-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+
+    &.visible {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        border-radius: 50%;
+    }
+}
+
+.scroll-to-top-button {
+    @include styles.center;
+    background: linear-gradient(135deg, $sky-color 0%, $ocean-color 56%);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 20px $sky-color;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 48px;
+    width: 48px;
+
+    .arrow-up {
+        transition: transform 0.2s ease;
+        border-radius: 50%;
+        height: 56%;
+        width: 56%;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 30px $sky-color;
+
+        .arrow-up {
+            transform: translateY(-2px);
+        }
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+@media (max-width: 768px) {
+    .scroll-to-top {
+        bottom: 1.5rem;
+        right: 1.5rem;
+
+        .scroll-to-top-button {
+            width: 42px;
+            height: 42px;
+        }
+    }
+}

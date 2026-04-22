@@ -1,0 +1,126 @@
+.technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 8rem 6rem 8rem;
+}
+.technologies .knowledge-subtitle {
+  color: white;
+  font-size: 1rem;
+}
+.technologies .technologies-title {
+  background-image: linear-gradient(to right, #1A5465, #62AEC2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3rem;
+  margin: 1.5rem 0;
+}
+.technologies .tech-stack-names-paragraph {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+.technologies .tech-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 0.5rem;
+  padding: 0;
+  width: 100%;
+}
+.technologies .tech-stack .icon {
+  color: white;
+  font-size: 4.5rem;
+}
+.technologies .tech-stack .bash {
+  font-size: 6rem;
+}
+.technologies .tech-stack .express {
+  font-size: 7rem;
+}
+.technologies .tech-stack .github {
+  font-size: 6rem;
+}
+
+@media (max-width: 475px) {
+  .technologies {
+    padding: 2.5rem 2rem 2.5rem 2rem;
+  }
+  .technologies .knowledge-subtitle {
+    font-size: 0.9rem;
+  }
+  .technologies .technologies-title {
+    font-size: 1.8rem;
+  }
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.3rem;
+  }
+  .technologies .tech-stack {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+  }
+  .technologies .tech-stack .svg-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+  .technologies .tech-stack .icon {
+    font-size: 2.5rem;
+  }
+  .technologies .tech-stack .bash {
+    font-size: 3.4rem;
+  }
+  .technologies .tech-stack .express {
+    font-size: 3.8rem;
+  }
+  .technologies .tech-stack .github {
+    font-size: 3.4rem;
+  }
+}
+@media (max-width: 451px) {
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.27rem;
+  }
+}
+@media (max-width: 442px) {
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.22rem;
+  }
+}
+@media (max-width: 429px) {
+  .technologies {
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    height: 24rem;
+  }
+  .technologies .knowledge-subtitle {
+    font-size: 0.8rem;
+  }
+  .technologies .technologies-title {
+    font-size: 1.7rem;
+  }
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.2rem;
+  }
+  .technologies .tech-stack {
+    height: 12.1rem;
+  }
+}
+@media (max-width: 406px) {
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 391px) {
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .technologies .tech-stack-names-paragraph {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=Technologies.css.map */

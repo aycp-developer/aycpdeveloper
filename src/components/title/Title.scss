@@ -1,0 +1,16 @@
+@use '../../sass/styles';
+
+.title {
+    @include styles.center;
+    margin: 0;
+
+    .degrade-blue-title {
+        @include styles.degrade-blue-text;
+        font-size: 2.7vw;
+    }
+
+    .icon {
+        height: 7vh;
+        width: 3.4vw;
+    }
+}
